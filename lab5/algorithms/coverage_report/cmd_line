@@ -1,0 +1,1 @@
+genhtml coverage.xml -o coverage_report
