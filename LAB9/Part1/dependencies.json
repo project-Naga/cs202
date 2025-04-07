@@ -1,0 +1,5896 @@
+{
+    "OpenSSL": {
+        "bacon": 2,
+        "imported_by": [
+            "OpenSSL",
+            "OpenSSL.SSL",
+            "OpenSSL.crypto",
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.tls",
+            "scrapy.utils.ssl",
+            "twisted.internet._sslverify",
+            "twisted.internet.endpoints",
+            "twisted.internet.interfaces",
+            "twisted.internet.ssl",
+            "twisted.web.client"
+        ],
+        "imports": [
+            "OpenSSL",
+            "OpenSSL.SSL",
+            "OpenSSL.crypto",
+            "OpenSSL.version"
+        ],
+        "name": "OpenSSL",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/OpenSSL/__init__.py"
+    },
+    "OpenSSL.SSL": {
+        "bacon": 2,
+        "imported_by": [
+            "OpenSSL",
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.tls",
+            "scrapy.utils.ssl",
+            "twisted.internet._sslverify",
+            "twisted.internet.endpoints",
+            "twisted.internet.interfaces",
+            "twisted.internet.ssl",
+            "twisted.web.client"
+        ],
+        "imports": [
+            "OpenSSL",
+            "OpenSSL._util",
+            "OpenSSL.crypto"
+        ],
+        "name": "OpenSSL.SSL",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/OpenSSL/SSL.py"
+    },
+    "OpenSSL._util": {
+        "bacon": 2,
+        "imported_by": [
+            "OpenSSL.SSL",
+            "OpenSSL.crypto",
+            "scrapy.utils.ssl",
+            "twisted.internet._sslverify"
+        ],
+        "name": "OpenSSL._util",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/OpenSSL/_util.py"
+    },
+    "OpenSSL.crypto": {
+        "bacon": 2,
+        "imported_by": [
+            "OpenSSL",
+            "OpenSSL.SSL",
+            "scrapy.utils.ssl",
+            "twisted.internet._sslverify"
+        ],
+        "imports": [
+            "OpenSSL",
+            "OpenSSL._util",
+            "typing_extensions"
+        ],
+        "name": "OpenSSL.crypto",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/OpenSSL/crypto.py"
+    },
+    "OpenSSL.version": {
+        "bacon": 2,
+        "imported_by": [
+            "OpenSSL",
+            "scrapy.utils.ssl"
+        ],
+        "name": "OpenSSL.version",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/OpenSSL/version.py"
+    },
+    "__main__": {
+        "bacon": 0,
+        "imports": [
+            "scrapy",
+            "scrapy.__main__",
+            "scrapy.addons",
+            "scrapy.cmdline",
+            "scrapy.commands",
+            "scrapy.commands.bench",
+            "scrapy.commands.check",
+            "scrapy.commands.crawl",
+            "scrapy.commands.edit",
+            "scrapy.commands.fetch",
+            "scrapy.commands.genspider",
+            "scrapy.commands.list",
+            "scrapy.commands.parse",
+            "scrapy.commands.runspider",
+            "scrapy.commands.settings",
+            "scrapy.commands.shell",
+            "scrapy.commands.startproject",
+            "scrapy.commands.version",
+            "scrapy.commands.view",
+            "scrapy.contracts",
+            "scrapy.contracts.default",
+            "scrapy.core",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.handlers",
+            "scrapy.core.downloader.handlers.datauri",
+            "scrapy.core.downloader.handlers.file",
+            "scrapy.core.downloader.handlers.ftp",
+            "scrapy.core.downloader.handlers.http",
+            "scrapy.core.downloader.handlers.http10",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.downloader.handlers.s3",
+            "scrapy.core.downloader.middleware",
+            "scrapy.core.downloader.tls",
+            "scrapy.core.downloader.webclient",
+            "scrapy.core.engine",
+            "scrapy.core.http2",
+            "scrapy.core.http2.agent",
+            "scrapy.core.http2.protocol",
+            "scrapy.core.http2.stream",
+            "scrapy.core.scheduler",
+            "scrapy.core.scraper",
+            "scrapy.core.spidermw",
+            "scrapy.crawler",
+            "scrapy.downloadermiddlewares",
+            "scrapy.downloadermiddlewares.ajaxcrawl",
+            "scrapy.downloadermiddlewares.cookies",
+            "scrapy.downloadermiddlewares.defaultheaders",
+            "scrapy.downloadermiddlewares.downloadtimeout",
+            "scrapy.downloadermiddlewares.httpauth",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.downloadermiddlewares.httpcompression",
+            "scrapy.downloadermiddlewares.httpproxy",
+            "scrapy.downloadermiddlewares.offsite",
+            "scrapy.downloadermiddlewares.redirect",
+            "scrapy.downloadermiddlewares.retry",
+            "scrapy.downloadermiddlewares.robotstxt",
+            "scrapy.downloadermiddlewares.stats",
+            "scrapy.downloadermiddlewares.useragent",
+            "scrapy.dupefilters",
+            "scrapy.exceptions",
+            "scrapy.exporters",
+            "scrapy.extension",
+            "scrapy.extensions",
+            "scrapy.extensions.closespider",
+            "scrapy.extensions.corestats",
+            "scrapy.extensions.debug",
+            "scrapy.extensions.feedexport",
+            "scrapy.extensions.httpcache",
+            "scrapy.extensions.logstats",
+            "scrapy.extensions.memdebug",
+            "scrapy.extensions.memusage",
+            "scrapy.extensions.periodic_log",
+            "scrapy.extensions.postprocessing",
+            "scrapy.extensions.spiderstate",
+            "scrapy.extensions.statsmailer",
+            "scrapy.extensions.telnet",
+            "scrapy.extensions.throttle",
+            "scrapy.http",
+            "scrapy.http.cookies",
+            "scrapy.http.headers",
+            "scrapy.http.request",
+            "scrapy.http.request.form",
+            "scrapy.http.request.json_request",
+            "scrapy.http.request.rpc",
+            "scrapy.http.response",
+            "scrapy.http.response.html",
+            "scrapy.http.response.json",
+            "scrapy.http.response.text",
+            "scrapy.http.response.xml",
+            "scrapy.interfaces",
+            "scrapy.item",
+            "scrapy.link",
+            "scrapy.linkextractors",
+            "scrapy.linkextractors.lxmlhtml",
+            "scrapy.loader",
+            "scrapy.logformatter",
+            "scrapy.mail",
+            "scrapy.middleware",
+            "scrapy.pipelines",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.images",
+            "scrapy.pipelines.media",
+            "scrapy.pqueues",
+            "scrapy.resolver",
+            "scrapy.responsetypes",
+            "scrapy.robotstxt",
+            "scrapy.selector",
+            "scrapy.selector.unified",
+            "scrapy.settings",
+            "scrapy.settings.default_settings",
+            "scrapy.shell",
+            "scrapy.signalmanager",
+            "scrapy.signals",
+            "scrapy.spiderloader",
+            "scrapy.spidermiddlewares",
+            "scrapy.spidermiddlewares.depth",
+            "scrapy.spidermiddlewares.httperror",
+            "scrapy.spidermiddlewares.offsite",
+            "scrapy.spidermiddlewares.referer",
+            "scrapy.spidermiddlewares.urllength",
+            "scrapy.spiders",
+            "scrapy.spiders.crawl",
+            "scrapy.spiders.feed",
+            "scrapy.spiders.init",
+            "scrapy.spiders.sitemap",
+            "scrapy.squeues",
+            "scrapy.statscollectors",
+            "scrapy.utils",
+            "scrapy.utils._compression",
+            "scrapy.utils.asyncgen",
+            "scrapy.utils.benchserver",
+            "scrapy.utils.boto",
+            "scrapy.utils.conf",
+            "scrapy.utils.console",
+            "scrapy.utils.curl",
+            "scrapy.utils.datatypes",
+            "scrapy.utils.decorators",
+            "scrapy.utils.defer",
+            "scrapy.utils.deprecate",
+            "scrapy.utils.display",
+            "scrapy.utils.engine",
+            "scrapy.utils.ftp",
+            "scrapy.utils.gz",
+            "scrapy.utils.httpobj",
+            "scrapy.utils.iterators",
+            "scrapy.utils.job",
+            "scrapy.utils.log",
+            "scrapy.utils.misc",
+            "scrapy.utils.ossignal",
+            "scrapy.utils.project",
+            "scrapy.utils.python",
+            "scrapy.utils.reactor",
+            "scrapy.utils.request",
+            "scrapy.utils.response",
+            "scrapy.utils.serialize",
+            "scrapy.utils.signal",
+            "scrapy.utils.sitemap",
+            "scrapy.utils.spider",
+            "scrapy.utils.ssl",
+            "scrapy.utils.template",
+            "scrapy.utils.test",
+            "scrapy.utils.testproc",
+            "scrapy.utils.testsite",
+            "scrapy.utils.trackref",
+            "scrapy.utils.url",
+            "scrapy.utils.versions"
+        ],
+        "name": "__main__",
+        "path": null
+    },
+    "defusedxml": {
+        "bacon": 2,
+        "imported_by": [
+            "defusedxml",
+            "scrapy.http.request.rpc"
+        ],
+        "imports": [
+            "defusedxml",
+            "defusedxml.xmlrpc"
+        ],
+        "name": "defusedxml",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/defusedxml/__init__.py"
+    },
+    "defusedxml.xmlrpc": {
+        "bacon": 2,
+        "imported_by": [
+            "defusedxml",
+            "scrapy.http.request.rpc"
+        ],
+        "name": "defusedxml.xmlrpc",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/defusedxml/xmlrpc.py"
+    },
+    "itemadapter": {
+        "bacon": 2,
+        "imported_by": [
+            "itemloaders",
+            "scrapy.commands.parse",
+            "scrapy.contracts.default",
+            "scrapy.exporters",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.images",
+            "scrapy.shell",
+            "scrapy.utils.serialize"
+        ],
+        "name": "itemadapter",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/itemadapter/__init__.py"
+    },
+    "itemloaders": {
+        "bacon": 2,
+        "imported_by": [
+            "itemloaders",
+            "scrapy.loader"
+        ],
+        "imports": [
+            "itemadapter",
+            "itemloaders",
+            "parsel",
+            "typing_extensions"
+        ],
+        "name": "itemloaders",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/itemloaders/__init__.py"
+    },
+    "lxml": {
+        "bacon": 2,
+        "imported_by": [
+            "lxml.html",
+            "scrapy.http.request.form",
+            "scrapy.linkextractors.lxmlhtml",
+            "scrapy.utils.iterators",
+            "scrapy.utils.sitemap",
+            "scrapy.utils.versions"
+        ],
+        "name": "lxml",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/lxml/__init__.py"
+    },
+    "lxml.etree": {
+        "bacon": 2,
+        "imported_by": [
+            "lxml.html",
+            "scrapy.linkextractors.lxmlhtml",
+            "scrapy.utils.iterators",
+            "scrapy.utils.sitemap",
+            "scrapy.utils.versions"
+        ],
+        "name": "lxml.etree",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/lxml/etree.cpython-312-x86_64-linux-gnu.so"
+    },
+    "lxml.html": {
+        "bacon": 2,
+        "imported_by": [
+            "lxml.html",
+            "scrapy.http.request.form",
+            "scrapy.linkextractors.lxmlhtml"
+        ],
+        "imports": [
+            "lxml",
+            "lxml.etree",
+            "lxml.html"
+        ],
+        "name": "lxml.html",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/lxml/html/__init__.py"
+    },
+    "packaging": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.utils.display"
+        ],
+        "name": "packaging",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/packaging/__init__.py"
+    },
+    "packaging.version": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.utils.display"
+        ],
+        "name": "packaging.version",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/packaging/version.py"
+    },
+    "parsel": {
+        "bacon": 2,
+        "imported_by": [
+            "itemloaders",
+            "parsel",
+            "scrapy.http.request.form",
+            "scrapy.http.response.text",
+            "scrapy.linkextractors.lxmlhtml",
+            "scrapy.selector.unified"
+        ],
+        "imports": [
+            "parsel",
+            "parsel.csstranslator"
+        ],
+        "name": "parsel",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/parsel/__init__.py"
+    },
+    "parsel.csstranslator": {
+        "bacon": 2,
+        "imported_by": [
+            "parsel",
+            "scrapy.http.request.form",
+            "scrapy.linkextractors.lxmlhtml"
+        ],
+        "imports": [
+            "typing_extensions"
+        ],
+        "name": "parsel.csstranslator",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/parsel/csstranslator.py"
+    },
+    "protego": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.robotstxt"
+        ],
+        "name": "protego",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/protego.py"
+    },
+    "pydispatch": {
+        "bacon": 2,
+        "imported_by": [
+            "pydispatch.dispatcher",
+            "scrapy.signalmanager",
+            "scrapy.utils.signal"
+        ],
+        "name": "pydispatch",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/pydispatch/__init__.py"
+    },
+    "pydispatch.dispatcher": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.signalmanager",
+            "scrapy.utils.signal"
+        ],
+        "imports": [
+            "pydispatch",
+            "pydispatch.robustapply"
+        ],
+        "name": "pydispatch.dispatcher",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/pydispatch/dispatcher.py"
+    },
+    "pydispatch.robustapply": {
+        "bacon": 2,
+        "imported_by": [
+            "pydispatch.dispatcher",
+            "scrapy.utils.signal"
+        ],
+        "name": "pydispatch.robustapply",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/pydispatch/robustapply.py"
+    },
+    "queuelib": {
+        "bacon": 2,
+        "imported_by": [
+            "queuelib",
+            "scrapy.core.scheduler",
+            "scrapy.squeues"
+        ],
+        "imports": [
+            "queuelib",
+            "queuelib.queue"
+        ],
+        "name": "queuelib",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/queuelib/__init__.py"
+    },
+    "queuelib.queue": {
+        "bacon": 2,
+        "imported_by": [
+            "queuelib",
+            "scrapy.core.scheduler",
+            "scrapy.squeues"
+        ],
+        "name": "queuelib.queue",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/queuelib/queue.py"
+    },
+    "scrapy": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy",
+            "scrapy.__main__",
+            "scrapy.addons",
+            "scrapy.cmdline",
+            "scrapy.commands",
+            "scrapy.commands.bench",
+            "scrapy.commands.check",
+            "scrapy.commands.crawl",
+            "scrapy.commands.edit",
+            "scrapy.commands.fetch",
+            "scrapy.commands.genspider",
+            "scrapy.commands.list",
+            "scrapy.commands.parse",
+            "scrapy.commands.runspider",
+            "scrapy.commands.settings",
+            "scrapy.commands.shell",
+            "scrapy.commands.startproject",
+            "scrapy.commands.version",
+            "scrapy.commands.view",
+            "scrapy.contracts",
+            "scrapy.contracts.default",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.handlers",
+            "scrapy.core.downloader.handlers.datauri",
+            "scrapy.core.downloader.handlers.file",
+            "scrapy.core.downloader.handlers.ftp",
+            "scrapy.core.downloader.handlers.http",
+            "scrapy.core.downloader.handlers.http10",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.downloader.handlers.s3",
+            "scrapy.core.downloader.middleware",
+            "scrapy.core.downloader.tls",
+            "scrapy.core.downloader.webclient",
+            "scrapy.core.engine",
+            "scrapy.core.http2.agent",
+            "scrapy.core.http2.protocol",
+            "scrapy.core.http2.stream",
+            "scrapy.core.scheduler",
+            "scrapy.core.scraper",
+            "scrapy.core.spidermw",
+            "scrapy.crawler",
+            "scrapy.downloadermiddlewares.ajaxcrawl",
+            "scrapy.downloadermiddlewares.cookies",
+            "scrapy.downloadermiddlewares.defaultheaders",
+            "scrapy.downloadermiddlewares.downloadtimeout",
+            "scrapy.downloadermiddlewares.httpauth",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.downloadermiddlewares.httpcompression",
+            "scrapy.downloadermiddlewares.httpproxy",
+            "scrapy.downloadermiddlewares.offsite",
+            "scrapy.downloadermiddlewares.redirect",
+            "scrapy.downloadermiddlewares.retry",
+            "scrapy.downloadermiddlewares.robotstxt",
+            "scrapy.downloadermiddlewares.stats",
+            "scrapy.downloadermiddlewares.useragent",
+            "scrapy.dupefilters",
+            "scrapy.exporters",
+            "scrapy.extension",
+            "scrapy.extensions.closespider",
+            "scrapy.extensions.corestats",
+            "scrapy.extensions.debug",
+            "scrapy.extensions.feedexport",
+            "scrapy.extensions.httpcache",
+            "scrapy.extensions.logstats",
+            "scrapy.extensions.memdebug",
+            "scrapy.extensions.memusage",
+            "scrapy.extensions.periodic_log",
+            "scrapy.extensions.postprocessing",
+            "scrapy.extensions.spiderstate",
+            "scrapy.extensions.statsmailer",
+            "scrapy.extensions.telnet",
+            "scrapy.extensions.throttle",
+            "scrapy.http",
+            "scrapy.http.cookies",
+            "scrapy.http.headers",
+            "scrapy.http.request",
+            "scrapy.http.request.form",
+            "scrapy.http.request.json_request",
+            "scrapy.http.request.rpc",
+            "scrapy.http.response",
+            "scrapy.http.response.html",
+            "scrapy.http.response.json",
+            "scrapy.http.response.text",
+            "scrapy.http.response.xml",
+            "scrapy.item",
+            "scrapy.linkextractors",
+            "scrapy.linkextractors.lxmlhtml",
+            "scrapy.loader",
+            "scrapy.logformatter",
+            "scrapy.mail",
+            "scrapy.middleware",
+            "scrapy.pipelines",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.images",
+            "scrapy.pipelines.media",
+            "scrapy.pqueues",
+            "scrapy.resolver",
+            "scrapy.responsetypes",
+            "scrapy.robotstxt",
+            "scrapy.selector",
+            "scrapy.selector.unified",
+            "scrapy.settings",
+            "scrapy.shell",
+            "scrapy.signalmanager",
+            "scrapy.spiderloader",
+            "scrapy.spidermiddlewares.depth",
+            "scrapy.spidermiddlewares.httperror",
+            "scrapy.spidermiddlewares.offsite",
+            "scrapy.spidermiddlewares.referer",
+            "scrapy.spidermiddlewares.urllength",
+            "scrapy.spiders",
+            "scrapy.spiders.crawl",
+            "scrapy.spiders.feed",
+            "scrapy.spiders.init",
+            "scrapy.spiders.sitemap",
+            "scrapy.squeues",
+            "scrapy.statscollectors",
+            "scrapy.utils._compression",
+            "scrapy.utils.conf",
+            "scrapy.utils.datatypes",
+            "scrapy.utils.decorators",
+            "scrapy.utils.defer",
+            "scrapy.utils.deprecate",
+            "scrapy.utils.engine",
+            "scrapy.utils.gz",
+            "scrapy.utils.httpobj",
+            "scrapy.utils.iterators",
+            "scrapy.utils.job",
+            "scrapy.utils.log",
+            "scrapy.utils.misc",
+            "scrapy.utils.project",
+            "scrapy.utils.python",
+            "scrapy.utils.reactor",
+            "scrapy.utils.request",
+            "scrapy.utils.response",
+            "scrapy.utils.serialize",
+            "scrapy.utils.signal",
+            "scrapy.utils.spider",
+            "scrapy.utils.ssl",
+            "scrapy.utils.test",
+            "scrapy.utils.testproc",
+            "scrapy.utils.testsite",
+            "scrapy.utils.url",
+            "scrapy.utils.versions"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.item",
+            "scrapy.selector",
+            "scrapy.spiders",
+            "twisted"
+        ],
+        "name": "scrapy",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/__init__.py"
+    },
+    "scrapy.__main__": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.cmdline"
+        ],
+        "name": "scrapy.__main__",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/__main__.py"
+    },
+    "scrapy.addons": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.crawler"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.conf",
+            "scrapy.utils.misc"
+        ],
+        "name": "scrapy.addons",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/addons.py"
+    },
+    "scrapy.cmdline": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.commands",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.misc",
+            "scrapy.utils.project",
+            "scrapy.utils.python",
+            "typing_extensions"
+        ],
+        "name": "scrapy.cmdline",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/cmdline.py"
+    },
+    "scrapy.commands": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.cmdline",
+            "scrapy.commands.bench",
+            "scrapy.commands.check",
+            "scrapy.commands.crawl",
+            "scrapy.commands.edit",
+            "scrapy.commands.fetch",
+            "scrapy.commands.genspider",
+            "scrapy.commands.list",
+            "scrapy.commands.parse",
+            "scrapy.commands.runspider",
+            "scrapy.commands.settings",
+            "scrapy.commands.shell",
+            "scrapy.commands.startproject",
+            "scrapy.commands.version",
+            "scrapy.commands.view"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.utils",
+            "scrapy.utils.conf",
+            "twisted",
+            "twisted.python",
+            "twisted.python.failure"
+        ],
+        "name": "scrapy.commands",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/commands/__init__.py"
+    },
+    "scrapy.commands.bench": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.commands",
+            "scrapy.http",
+            "scrapy.linkextractors",
+            "scrapy.utils",
+            "scrapy.utils.test"
+        ],
+        "name": "scrapy.commands.bench",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/commands/bench.py"
+    },
+    "scrapy.commands.check": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.commands",
+            "scrapy.contracts",
+            "scrapy.utils",
+            "scrapy.utils.conf",
+            "scrapy.utils.misc"
+        ],
+        "name": "scrapy.commands.check",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/commands/check.py"
+    },
+    "scrapy.commands.crawl": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.commands",
+            "scrapy.exceptions",
+            "twisted",
+            "twisted.python",
+            "twisted.python.failure"
+        ],
+        "name": "scrapy.commands.crawl",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/commands/crawl.py"
+    },
+    "scrapy.commands.edit": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.commands",
+            "scrapy.exceptions"
+        ],
+        "name": "scrapy.commands.edit",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/commands/edit.py"
+    },
+    "scrapy.commands.fetch": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.commands.view"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.commands",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.utils",
+            "scrapy.utils.datatypes",
+            "scrapy.utils.spider",
+            "w3lib",
+            "w3lib.url"
+        ],
+        "name": "scrapy.commands.fetch",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/commands/fetch.py"
+    },
+    "scrapy.commands.genspider": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.commands",
+            "scrapy.exceptions",
+            "scrapy.utils",
+            "scrapy.utils.template"
+        ],
+        "name": "scrapy.commands.genspider",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/commands/genspider.py"
+    },
+    "scrapy.commands.list": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.commands"
+        ],
+        "name": "scrapy.commands.list",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/commands/list.py"
+    },
+    "scrapy.commands.parse": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "itemadapter",
+            "scrapy",
+            "scrapy.commands",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.http.request",
+            "scrapy.spiders",
+            "scrapy.utils",
+            "scrapy.utils.asyncgen",
+            "scrapy.utils.defer",
+            "scrapy.utils.display",
+            "scrapy.utils.log",
+            "scrapy.utils.misc",
+            "scrapy.utils.spider",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.python",
+            "twisted.python.failure",
+            "w3lib",
+            "w3lib.url"
+        ],
+        "name": "scrapy.commands.parse",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/commands/parse.py"
+    },
+    "scrapy.commands.runspider": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.commands",
+            "scrapy.exceptions",
+            "scrapy.utils",
+            "scrapy.utils.spider"
+        ],
+        "name": "scrapy.commands.runspider",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/commands/runspider.py"
+    },
+    "scrapy.commands.settings": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.commands",
+            "scrapy.settings"
+        ],
+        "name": "scrapy.commands.settings",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/commands/settings.py"
+    },
+    "scrapy.commands.shell": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.commands",
+            "scrapy.http",
+            "scrapy.shell",
+            "scrapy.utils",
+            "scrapy.utils.spider",
+            "scrapy.utils.url"
+        ],
+        "name": "scrapy.commands.shell",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/commands/shell.py"
+    },
+    "scrapy.commands.startproject": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.commands",
+            "scrapy.exceptions",
+            "scrapy.utils",
+            "scrapy.utils.template"
+        ],
+        "name": "scrapy.commands.startproject",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/commands/startproject.py"
+    },
+    "scrapy.commands.version": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.commands",
+            "scrapy.utils",
+            "scrapy.utils.versions"
+        ],
+        "name": "scrapy.commands.version",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/commands/version.py"
+    },
+    "scrapy.commands.view": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.commands",
+            "scrapy.commands.fetch",
+            "scrapy.http",
+            "scrapy.utils",
+            "scrapy.utils.response"
+        ],
+        "name": "scrapy.commands.view",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/commands/view.py"
+    },
+    "scrapy.contracts": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.commands.check",
+            "scrapy.contracts.default"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.http",
+            "scrapy.utils",
+            "scrapy.utils.python",
+            "scrapy.utils.spider",
+            "twisted",
+            "twisted.python",
+            "twisted.python.failure"
+        ],
+        "name": "scrapy.contracts",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/contracts/__init__.py"
+    },
+    "scrapy.contracts.default": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "itemadapter",
+            "scrapy",
+            "scrapy.contracts",
+            "scrapy.exceptions",
+            "scrapy.http"
+        ],
+        "name": "scrapy.contracts.default",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/contracts/default.py"
+    },
+    "scrapy.core": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.handlers.http",
+            "scrapy.core.downloader.handlers.http10",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.downloader.handlers.s3",
+            "scrapy.core.engine",
+            "scrapy.core.http2.agent",
+            "scrapy.core.http2.protocol",
+            "scrapy.core.http2.stream",
+            "scrapy.core.scraper",
+            "scrapy.crawler",
+            "scrapy.extensions.throttle",
+            "scrapy.pqueues",
+            "scrapy.utils.engine"
+        ],
+        "name": "scrapy.core",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/__init__.py"
+    },
+    "scrapy.core.downloader": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.handlers.http",
+            "scrapy.core.downloader.handlers.http10",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.downloader.handlers.s3",
+            "scrapy.core.engine",
+            "scrapy.core.http2.agent",
+            "scrapy.extensions.throttle",
+            "scrapy.pqueues"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.core",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.handlers",
+            "scrapy.core.downloader.middleware",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.resolver",
+            "scrapy.settings",
+            "scrapy.signalmanager",
+            "scrapy.signals",
+            "scrapy.utils",
+            "scrapy.utils.defer",
+            "scrapy.utils.httpobj",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.reactor",
+            "twisted.internet.task"
+        ],
+        "name": "scrapy.core.downloader",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/downloader/__init__.py"
+    },
+    "scrapy.core.downloader.contextfactory": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader.handlers.http10",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.http2.agent"
+        ],
+        "imports": [
+            "OpenSSL",
+            "OpenSSL.SSL",
+            "scrapy",
+            "scrapy.core",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.tls",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.deprecate",
+            "scrapy.utils.misc",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet._sslverify",
+            "twisted.internet.ssl",
+            "twisted.web",
+            "twisted.web.client",
+            "twisted.web.iweb",
+            "typing_extensions"
+        ],
+        "name": "scrapy.core.downloader.contextfactory",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/downloader/contextfactory.py"
+    },
+    "scrapy.core.downloader.handlers": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.handlers.http",
+            "scrapy.core.downloader.handlers.s3"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.signals",
+            "scrapy.utils",
+            "scrapy.utils.httpobj",
+            "scrapy.utils.misc",
+            "scrapy.utils.python",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer"
+        ],
+        "name": "scrapy.core.downloader.handlers",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/downloader/handlers/__init__.py"
+    },
+    "scrapy.core.downloader.handlers.datauri": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.http",
+            "scrapy.responsetypes",
+            "scrapy.utils",
+            "scrapy.utils.decorators",
+            "w3lib",
+            "w3lib.url"
+        ],
+        "name": "scrapy.core.downloader.handlers.datauri",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/downloader/handlers/datauri.py"
+    },
+    "scrapy.core.downloader.handlers.file": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.http",
+            "scrapy.responsetypes",
+            "scrapy.utils",
+            "scrapy.utils.decorators",
+            "w3lib",
+            "w3lib.url"
+        ],
+        "name": "scrapy.core.downloader.handlers.file",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/downloader/handlers/file.py"
+    },
+    "scrapy.core.downloader.handlers.ftp": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.http",
+            "scrapy.responsetypes",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.httpobj",
+            "scrapy.utils.python",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.protocol",
+            "twisted.internet.reactor",
+            "twisted.protocols",
+            "twisted.protocols.ftp",
+            "twisted.python",
+            "twisted.python.failure",
+            "typing_extensions"
+        ],
+        "name": "scrapy.core.downloader.handlers.ftp",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/downloader/handlers/ftp.py"
+    },
+    "scrapy.core.downloader.handlers.http": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader.handlers.s3"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.core",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.handlers",
+            "scrapy.core.downloader.handlers.http10",
+            "scrapy.core.downloader.handlers.http11"
+        ],
+        "name": "scrapy.core.downloader.handlers.http",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/downloader/handlers/http.py"
+    },
+    "scrapy.core.downloader.handlers.http10": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader.handlers.http"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.core",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.webclient",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.misc",
+            "scrapy.utils.python",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.interfaces",
+            "twisted.internet.reactor",
+            "typing_extensions"
+        ],
+        "name": "scrapy.core.downloader.handlers.http10",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/downloader/handlers/http10.py"
+    },
+    "scrapy.core.downloader.handlers.http11": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader.handlers.http"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.core",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.responsetypes",
+            "scrapy.settings",
+            "scrapy.signals",
+            "scrapy.utils",
+            "scrapy.utils.httpobj",
+            "scrapy.utils.python",
+            "scrapy.utils.url",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.base",
+            "twisted.internet.defer",
+            "twisted.internet.endpoints",
+            "twisted.internet.error",
+            "twisted.internet.interfaces",
+            "twisted.internet.protocol",
+            "twisted.internet.reactor",
+            "twisted.internet.ssl",
+            "twisted.python",
+            "twisted.python.failure",
+            "twisted.web",
+            "twisted.web.client",
+            "twisted.web.http",
+            "twisted.web.http_headers",
+            "twisted.web.iweb",
+            "typing_extensions"
+        ],
+        "name": "scrapy.core.downloader.handlers.http11",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/downloader/handlers/http11.py"
+    },
+    "scrapy.core.downloader.handlers.http2": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.core",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.http2",
+            "scrapy.core.http2.agent",
+            "scrapy.crawler",
+            "scrapy.http",
+            "scrapy.settings",
+            "scrapy.spiders",
+            "scrapy.utils",
+            "scrapy.utils.httpobj",
+            "scrapy.utils.python",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.base",
+            "twisted.internet.defer",
+            "twisted.internet.error",
+            "twisted.internet.reactor",
+            "twisted.web",
+            "twisted.web.client",
+            "twisted.web.iweb",
+            "typing_extensions"
+        ],
+        "name": "scrapy.core.downloader.handlers.http2",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/downloader/handlers/http2.py"
+    },
+    "scrapy.core.downloader.handlers.s3": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.core",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.handlers",
+            "scrapy.core.downloader.handlers.http",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.boto",
+            "scrapy.utils.httpobj",
+            "scrapy.utils.misc",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "typing_extensions"
+        ],
+        "name": "scrapy.core.downloader.handlers.s3",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/downloader/handlers/s3.py"
+    },
+    "scrapy.core.downloader.middleware": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.middleware",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.conf",
+            "scrapy.utils.defer",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.python",
+            "twisted.python.failure"
+        ],
+        "name": "scrapy.core.downloader.middleware",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/downloader/middleware.py"
+    },
+    "scrapy.core.downloader.tls": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader.contextfactory"
+        ],
+        "imports": [
+            "OpenSSL",
+            "OpenSSL.SSL",
+            "scrapy",
+            "scrapy.utils",
+            "scrapy.utils.ssl",
+            "service_identity",
+            "service_identity.exceptions",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet._sslverify",
+            "twisted.internet.ssl"
+        ],
+        "name": "scrapy.core.downloader.tls",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/downloader/tls.py"
+    },
+    "scrapy.core.downloader.webclient": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader.handlers.http10"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.responsetypes",
+            "scrapy.utils",
+            "scrapy.utils.httpobj",
+            "scrapy.utils.python",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.protocol",
+            "twisted.internet.reactor",
+            "twisted.web",
+            "twisted.web.http"
+        ],
+        "name": "scrapy.core.downloader.webclient",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/downloader/webclient.py"
+    },
+    "scrapy.core.engine": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.crawler",
+            "scrapy.utils.engine"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.core",
+            "scrapy.core.downloader",
+            "scrapy.core.scheduler",
+            "scrapy.core.scraper",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.logformatter",
+            "scrapy.settings",
+            "scrapy.signalmanager",
+            "scrapy.signals",
+            "scrapy.spiders",
+            "scrapy.utils",
+            "scrapy.utils.log",
+            "scrapy.utils.misc",
+            "scrapy.utils.reactor",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.task",
+            "twisted.python",
+            "twisted.python.failure"
+        ],
+        "name": "scrapy.core.engine",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/engine.py"
+    },
+    "scrapy.core.http2": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.http2.agent",
+            "scrapy.core.http2.protocol",
+            "scrapy.core.http2.stream"
+        ],
+        "name": "scrapy.core.http2",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/http2/__init__.py"
+    },
+    "scrapy.core.http2.agent": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader.handlers.http2"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.core",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.http2",
+            "scrapy.core.http2.protocol",
+            "scrapy.http",
+            "scrapy.settings",
+            "scrapy.spiders",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.base",
+            "twisted.internet.defer",
+            "twisted.internet.endpoints",
+            "twisted.python",
+            "twisted.python.failure",
+            "twisted.web",
+            "twisted.web.client",
+            "twisted.web.error"
+        ],
+        "name": "scrapy.core.http2.agent",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/http2/agent.py"
+    },
+    "scrapy.core.http2.protocol": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.http2.agent",
+            "scrapy.core.http2.stream"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.core",
+            "scrapy.core.http2",
+            "scrapy.core.http2.stream",
+            "scrapy.http",
+            "scrapy.settings",
+            "scrapy.spiders",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.error",
+            "twisted.internet.interfaces",
+            "twisted.internet.protocol",
+            "twisted.internet.ssl",
+            "twisted.protocols",
+            "twisted.protocols.policies",
+            "twisted.python",
+            "twisted.python.failure",
+            "twisted.web",
+            "twisted.web.client"
+        ],
+        "name": "scrapy.core.http2.protocol",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/http2/protocol.py"
+    },
+    "scrapy.core.http2.stream": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.http2.protocol"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.core",
+            "scrapy.core.http2",
+            "scrapy.core.http2.protocol",
+            "scrapy.http",
+            "scrapy.http.headers",
+            "scrapy.responsetypes",
+            "scrapy.utils",
+            "scrapy.utils.httpobj",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.error",
+            "twisted.python",
+            "twisted.python.failure",
+            "twisted.web",
+            "twisted.web.client"
+        ],
+        "name": "scrapy.core.http2.stream",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/http2/stream.py"
+    },
+    "scrapy.core.scheduler": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.engine"
+        ],
+        "imports": [
+            "queuelib",
+            "queuelib.queue",
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.dupefilters",
+            "scrapy.http",
+            "scrapy.http.request",
+            "scrapy.pqueues",
+            "scrapy.spiders",
+            "scrapy.statscollectors",
+            "scrapy.utils",
+            "scrapy.utils.job",
+            "scrapy.utils.misc",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "typing_extensions"
+        ],
+        "name": "scrapy.core.scheduler",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/scheduler.py"
+    },
+    "scrapy.core.scraper": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.engine"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.core",
+            "scrapy.core.spidermw",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.logformatter",
+            "scrapy.pipelines",
+            "scrapy.signalmanager",
+            "scrapy.signals",
+            "scrapy.utils",
+            "scrapy.utils.defer",
+            "scrapy.utils.log",
+            "scrapy.utils.misc",
+            "scrapy.utils.spider",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.python",
+            "twisted.python.failure"
+        ],
+        "name": "scrapy.core.scraper",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/scraper.py"
+    },
+    "scrapy.core.spidermw": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.scraper"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.middleware",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.asyncgen",
+            "scrapy.utils.conf",
+            "scrapy.utils.defer",
+            "scrapy.utils.python",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.python",
+            "twisted.python.failure"
+        ],
+        "name": "scrapy.core.spidermw",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/core/spidermw.py"
+    },
+    "scrapy.crawler": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.addons",
+            "scrapy.cmdline",
+            "scrapy.commands",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.handlers",
+            "scrapy.core.downloader.handlers.ftp",
+            "scrapy.core.downloader.handlers.http10",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.downloader.handlers.s3",
+            "scrapy.core.engine",
+            "scrapy.core.scheduler",
+            "scrapy.core.scraper",
+            "scrapy.downloadermiddlewares.ajaxcrawl",
+            "scrapy.downloadermiddlewares.cookies",
+            "scrapy.downloadermiddlewares.defaultheaders",
+            "scrapy.downloadermiddlewares.downloadtimeout",
+            "scrapy.downloadermiddlewares.httpauth",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.downloadermiddlewares.httpcompression",
+            "scrapy.downloadermiddlewares.httpproxy",
+            "scrapy.downloadermiddlewares.offsite",
+            "scrapy.downloadermiddlewares.redirect",
+            "scrapy.downloadermiddlewares.retry",
+            "scrapy.downloadermiddlewares.robotstxt",
+            "scrapy.downloadermiddlewares.stats",
+            "scrapy.downloadermiddlewares.useragent",
+            "scrapy.dupefilters",
+            "scrapy.extensions.closespider",
+            "scrapy.extensions.corestats",
+            "scrapy.extensions.debug",
+            "scrapy.extensions.feedexport",
+            "scrapy.extensions.logstats",
+            "scrapy.extensions.memdebug",
+            "scrapy.extensions.memusage",
+            "scrapy.extensions.periodic_log",
+            "scrapy.extensions.spiderstate",
+            "scrapy.extensions.statsmailer",
+            "scrapy.extensions.telnet",
+            "scrapy.extensions.throttle",
+            "scrapy.logformatter",
+            "scrapy.mail",
+            "scrapy.middleware",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.images",
+            "scrapy.pipelines.media",
+            "scrapy.pqueues",
+            "scrapy.resolver",
+            "scrapy.robotstxt",
+            "scrapy.shell",
+            "scrapy.spidermiddlewares.depth",
+            "scrapy.spidermiddlewares.httperror",
+            "scrapy.spidermiddlewares.offsite",
+            "scrapy.spidermiddlewares.referer",
+            "scrapy.spidermiddlewares.urllength",
+            "scrapy.spiders",
+            "scrapy.spiders.crawl",
+            "scrapy.spiders.sitemap",
+            "scrapy.squeues",
+            "scrapy.statscollectors",
+            "scrapy.utils.log",
+            "scrapy.utils.misc",
+            "scrapy.utils.request",
+            "scrapy.utils.test"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.addons",
+            "scrapy.core",
+            "scrapy.core.engine",
+            "scrapy.extension",
+            "scrapy.interfaces",
+            "scrapy.logformatter",
+            "scrapy.settings",
+            "scrapy.signalmanager",
+            "scrapy.signals",
+            "scrapy.spiderloader",
+            "scrapy.statscollectors",
+            "scrapy.utils",
+            "scrapy.utils.log",
+            "scrapy.utils.misc",
+            "scrapy.utils.ossignal",
+            "scrapy.utils.reactor",
+            "scrapy.utils.request",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.reactor"
+        ],
+        "name": "scrapy.crawler",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/crawler.py"
+    },
+    "scrapy.downloadermiddlewares": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "scrapy.downloadermiddlewares",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/downloadermiddlewares/__init__.py"
+    },
+    "scrapy.downloadermiddlewares.ajaxcrawl": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.url",
+            "typing_extensions",
+            "w3lib",
+            "w3lib.html"
+        ],
+        "name": "scrapy.downloadermiddlewares.ajaxcrawl",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/downloadermiddlewares/ajaxcrawl.py"
+    },
+    "scrapy.downloadermiddlewares.cookies": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.http.cookies",
+            "scrapy.http.request",
+            "scrapy.utils",
+            "scrapy.utils.httpobj",
+            "scrapy.utils.python",
+            "tldextract",
+            "typing_extensions"
+        ],
+        "name": "scrapy.downloadermiddlewares.cookies",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/downloadermiddlewares/cookies.py"
+    },
+    "scrapy.downloadermiddlewares.defaultheaders": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.http",
+            "scrapy.utils",
+            "scrapy.utils.python",
+            "typing_extensions"
+        ],
+        "name": "scrapy.downloadermiddlewares.defaultheaders",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/downloadermiddlewares/defaultheaders.py"
+    },
+    "scrapy.downloadermiddlewares.downloadtimeout": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.http",
+            "scrapy.signals",
+            "typing_extensions"
+        ],
+        "name": "scrapy.downloadermiddlewares.downloadtimeout",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/downloadermiddlewares/downloadtimeout.py"
+    },
+    "scrapy.downloadermiddlewares.httpauth": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.http",
+            "scrapy.signals",
+            "scrapy.utils",
+            "scrapy.utils.url",
+            "typing_extensions",
+            "w3lib",
+            "w3lib.http"
+        ],
+        "name": "scrapy.downloadermiddlewares.httpauth",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/downloadermiddlewares/httpauth.py"
+    },
+    "scrapy.downloadermiddlewares.httpcache": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.http.request",
+            "scrapy.http.response",
+            "scrapy.settings",
+            "scrapy.signals",
+            "scrapy.spiders",
+            "scrapy.statscollectors",
+            "scrapy.utils",
+            "scrapy.utils.misc",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.error",
+            "twisted.web",
+            "twisted.web.client",
+            "typing_extensions"
+        ],
+        "name": "scrapy.downloadermiddlewares.httpcache",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/downloadermiddlewares/httpcache.py"
+    },
+    "scrapy.downloadermiddlewares.httpcompression": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.responsetypes",
+            "scrapy.signals",
+            "scrapy.statscollectors",
+            "scrapy.utils",
+            "scrapy.utils._compression",
+            "scrapy.utils.gz",
+            "typing_extensions"
+        ],
+        "name": "scrapy.downloadermiddlewares.httpcompression",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/downloadermiddlewares/httpcompression.py"
+    },
+    "scrapy.downloadermiddlewares.httpproxy": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.utils",
+            "scrapy.utils.httpobj",
+            "scrapy.utils.python",
+            "typing_extensions"
+        ],
+        "name": "scrapy.downloadermiddlewares.httpproxy",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/downloadermiddlewares/httpproxy.py"
+    },
+    "scrapy.downloadermiddlewares.offsite": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.signals",
+            "scrapy.statscollectors",
+            "scrapy.utils",
+            "scrapy.utils.httpobj",
+            "typing_extensions"
+        ],
+        "name": "scrapy.downloadermiddlewares.offsite",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/downloadermiddlewares/offsite.py"
+    },
+    "scrapy.downloadermiddlewares.redirect": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.httpobj",
+            "scrapy.utils.response",
+            "typing_extensions",
+            "w3lib",
+            "w3lib.url"
+        ],
+        "name": "scrapy.downloadermiddlewares.redirect",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/downloadermiddlewares/redirect.py"
+    },
+    "scrapy.downloadermiddlewares.retry": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.http.request",
+            "scrapy.settings",
+            "scrapy.spiders",
+            "scrapy.utils",
+            "scrapy.utils.misc",
+            "scrapy.utils.python",
+            "scrapy.utils.response",
+            "typing_extensions"
+        ],
+        "name": "scrapy.downloadermiddlewares.retry",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/downloadermiddlewares/retry.py"
+    },
+    "scrapy.downloadermiddlewares.robotstxt": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.http.request",
+            "scrapy.robotstxt",
+            "scrapy.utils",
+            "scrapy.utils.httpobj",
+            "scrapy.utils.log",
+            "scrapy.utils.misc",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.python",
+            "twisted.python.failure",
+            "typing_extensions"
+        ],
+        "name": "scrapy.downloadermiddlewares.robotstxt",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/downloadermiddlewares/robotstxt.py"
+    },
+    "scrapy.downloadermiddlewares.stats": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.statscollectors",
+            "scrapy.utils",
+            "scrapy.utils.python",
+            "scrapy.utils.request",
+            "twisted",
+            "twisted.web",
+            "twisted.web.http",
+            "typing_extensions"
+        ],
+        "name": "scrapy.downloadermiddlewares.stats",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/downloadermiddlewares/stats.py"
+    },
+    "scrapy.downloadermiddlewares.useragent": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.http",
+            "scrapy.signals",
+            "typing_extensions"
+        ],
+        "name": "scrapy.downloadermiddlewares.useragent",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/downloadermiddlewares/useragent.py"
+    },
+    "scrapy.dupefilters": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.scheduler"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.http.request",
+            "scrapy.settings",
+            "scrapy.spiders",
+            "scrapy.utils",
+            "scrapy.utils.job",
+            "scrapy.utils.request",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "typing_extensions"
+        ],
+        "name": "scrapy.dupefilters",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/dupefilters.py"
+    },
+    "scrapy.exceptions": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy",
+            "scrapy.addons",
+            "scrapy.cmdline",
+            "scrapy.commands",
+            "scrapy.commands.crawl",
+            "scrapy.commands.edit",
+            "scrapy.commands.fetch",
+            "scrapy.commands.genspider",
+            "scrapy.commands.parse",
+            "scrapy.commands.runspider",
+            "scrapy.commands.startproject",
+            "scrapy.contracts.default",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.handlers",
+            "scrapy.core.downloader.handlers.http10",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.s3",
+            "scrapy.core.downloader.middleware",
+            "scrapy.core.downloader.webclient",
+            "scrapy.core.engine",
+            "scrapy.core.scraper",
+            "scrapy.core.spidermw",
+            "scrapy.downloadermiddlewares.ajaxcrawl",
+            "scrapy.downloadermiddlewares.cookies",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.downloadermiddlewares.httpcompression",
+            "scrapy.downloadermiddlewares.httpproxy",
+            "scrapy.downloadermiddlewares.offsite",
+            "scrapy.downloadermiddlewares.redirect",
+            "scrapy.downloadermiddlewares.retry",
+            "scrapy.downloadermiddlewares.robotstxt",
+            "scrapy.downloadermiddlewares.stats",
+            "scrapy.dupefilters",
+            "scrapy.extensions.closespider",
+            "scrapy.extensions.feedexport",
+            "scrapy.extensions.logstats",
+            "scrapy.extensions.memdebug",
+            "scrapy.extensions.memusage",
+            "scrapy.extensions.periodic_log",
+            "scrapy.extensions.spiderstate",
+            "scrapy.extensions.statsmailer",
+            "scrapy.extensions.telnet",
+            "scrapy.extensions.throttle",
+            "scrapy.http.response",
+            "scrapy.mail",
+            "scrapy.middleware",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.images",
+            "scrapy.pipelines.media",
+            "scrapy.shell",
+            "scrapy.spidermiddlewares.httperror",
+            "scrapy.spidermiddlewares.offsite",
+            "scrapy.spidermiddlewares.referer",
+            "scrapy.spidermiddlewares.urllength",
+            "scrapy.spiders.feed",
+            "scrapy.spiders.init",
+            "scrapy.utils._compression",
+            "scrapy.utils.conf",
+            "scrapy.utils.datatypes",
+            "scrapy.utils.decorators",
+            "scrapy.utils.defer",
+            "scrapy.utils.deprecate",
+            "scrapy.utils.iterators",
+            "scrapy.utils.misc",
+            "scrapy.utils.project",
+            "scrapy.utils.python",
+            "scrapy.utils.request",
+            "scrapy.utils.serialize",
+            "scrapy.utils.signal",
+            "scrapy.utils.test",
+            "scrapy.utils.testproc",
+            "scrapy.utils.testsite",
+            "scrapy.utils.url",
+            "scrapy.utils.versions"
+        ],
+        "name": "scrapy.exceptions",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/exceptions.py"
+    },
+    "scrapy.exporters": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.extensions.feedexport"
+        ],
+        "imports": [
+            "itemadapter",
+            "scrapy",
+            "scrapy.item",
+            "scrapy.utils",
+            "scrapy.utils.python",
+            "scrapy.utils.serialize"
+        ],
+        "name": "scrapy.exporters",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/exporters.py"
+    },
+    "scrapy.extension": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.crawler"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.middleware",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.conf"
+        ],
+        "name": "scrapy.extension",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/extension.py"
+    },
+    "scrapy.extensions": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.extensions.feedexport"
+        ],
+        "name": "scrapy.extensions",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/extensions/__init__.py"
+    },
+    "scrapy.extensions.closespider": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.signals",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.reactor",
+            "twisted.internet.task",
+            "twisted.python",
+            "twisted.python.failure",
+            "typing_extensions"
+        ],
+        "name": "scrapy.extensions.closespider",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/extensions/closespider.py"
+    },
+    "scrapy.extensions.corestats": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.signals",
+            "scrapy.statscollectors",
+            "typing_extensions"
+        ],
+        "name": "scrapy.extensions.corestats",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/extensions/corestats.py"
+    },
+    "scrapy.extensions.debug": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.utils",
+            "scrapy.utils.engine",
+            "scrapy.utils.trackref",
+            "typing_extensions"
+        ],
+        "name": "scrapy.extensions.debug",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/extensions/debug.py"
+    },
+    "scrapy.extensions.feedexport": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.exporters",
+            "scrapy.extensions",
+            "scrapy.extensions.postprocessing",
+            "scrapy.settings",
+            "scrapy.signals",
+            "scrapy.utils",
+            "scrapy.utils.conf",
+            "scrapy.utils.defer",
+            "scrapy.utils.ftp",
+            "scrapy.utils.log",
+            "scrapy.utils.misc",
+            "scrapy.utils.python",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.threads",
+            "twisted.python",
+            "twisted.python.failure",
+            "typing_extensions",
+            "w3lib",
+            "w3lib.url"
+        ],
+        "name": "scrapy.extensions.feedexport",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/extensions/feedexport.py"
+    },
+    "scrapy.extensions.httpcache": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.http",
+            "scrapy.http.request",
+            "scrapy.responsetypes",
+            "scrapy.settings",
+            "scrapy.spiders",
+            "scrapy.utils",
+            "scrapy.utils.httpobj",
+            "scrapy.utils.project",
+            "scrapy.utils.python",
+            "scrapy.utils.request",
+            "typing_extensions",
+            "w3lib",
+            "w3lib.http"
+        ],
+        "name": "scrapy.extensions.httpcache",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/extensions/httpcache.py"
+    },
+    "scrapy.extensions.logstats": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.signals",
+            "scrapy.statscollectors",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.task",
+            "typing_extensions"
+        ],
+        "name": "scrapy.extensions.logstats",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/extensions/logstats.py"
+    },
+    "scrapy.extensions.memdebug": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.signals",
+            "scrapy.statscollectors",
+            "scrapy.utils",
+            "scrapy.utils.trackref",
+            "typing_extensions"
+        ],
+        "name": "scrapy.extensions.memdebug",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/extensions/memdebug.py"
+    },
+    "scrapy.extensions.memusage": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.mail",
+            "scrapy.signals",
+            "scrapy.utils",
+            "scrapy.utils.engine",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.task",
+            "typing_extensions"
+        ],
+        "name": "scrapy.extensions.memusage",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/extensions/memusage.py"
+    },
+    "scrapy.extensions.periodic_log": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.signals",
+            "scrapy.statscollectors",
+            "scrapy.utils",
+            "scrapy.utils.serialize",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.task",
+            "typing_extensions"
+        ],
+        "name": "scrapy.extensions.periodic_log",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/extensions/periodic_log.py"
+    },
+    "scrapy.extensions.postprocessing": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.extensions.feedexport"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.utils",
+            "scrapy.utils.misc"
+        ],
+        "name": "scrapy.extensions.postprocessing",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/extensions/postprocessing.py"
+    },
+    "scrapy.extensions.spiderstate": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.signals",
+            "scrapy.utils",
+            "scrapy.utils.job",
+            "typing_extensions"
+        ],
+        "name": "scrapy.extensions.spiderstate",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/extensions/spiderstate.py"
+    },
+    "scrapy.extensions.statsmailer": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.mail",
+            "scrapy.signals",
+            "scrapy.statscollectors",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "typing_extensions"
+        ],
+        "name": "scrapy.extensions.statsmailer",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/extensions/statsmailer.py"
+    },
+    "scrapy.extensions.telnet": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.signals",
+            "scrapy.utils",
+            "scrapy.utils.decorators",
+            "scrapy.utils.engine",
+            "scrapy.utils.reactor",
+            "scrapy.utils.trackref",
+            "twisted",
+            "twisted.conch",
+            "twisted.conch.insults",
+            "twisted.conch.insults.insults",
+            "twisted.conch.manhole",
+            "twisted.conch.telnet",
+            "twisted.internet",
+            "twisted.internet.protocol",
+            "twisted.internet.tcp",
+            "typing_extensions"
+        ],
+        "name": "scrapy.extensions.telnet",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/extensions/telnet.py"
+    },
+    "scrapy.extensions.throttle": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.core",
+            "scrapy.core.downloader",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.signals",
+            "typing_extensions"
+        ],
+        "name": "scrapy.extensions.throttle",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/extensions/throttle.py"
+    },
+    "scrapy.http": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy",
+            "scrapy.commands.bench",
+            "scrapy.commands.fetch",
+            "scrapy.commands.parse",
+            "scrapy.commands.shell",
+            "scrapy.commands.view",
+            "scrapy.contracts",
+            "scrapy.contracts.default",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.handlers",
+            "scrapy.core.downloader.handlers.datauri",
+            "scrapy.core.downloader.handlers.file",
+            "scrapy.core.downloader.handlers.ftp",
+            "scrapy.core.downloader.handlers.http10",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.downloader.handlers.s3",
+            "scrapy.core.downloader.middleware",
+            "scrapy.core.downloader.webclient",
+            "scrapy.core.engine",
+            "scrapy.core.http2.agent",
+            "scrapy.core.http2.protocol",
+            "scrapy.core.http2.stream",
+            "scrapy.core.scheduler",
+            "scrapy.core.scraper",
+            "scrapy.core.spidermw",
+            "scrapy.downloadermiddlewares.ajaxcrawl",
+            "scrapy.downloadermiddlewares.cookies",
+            "scrapy.downloadermiddlewares.defaultheaders",
+            "scrapy.downloadermiddlewares.downloadtimeout",
+            "scrapy.downloadermiddlewares.httpauth",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.downloadermiddlewares.httpcompression",
+            "scrapy.downloadermiddlewares.httpproxy",
+            "scrapy.downloadermiddlewares.redirect",
+            "scrapy.downloadermiddlewares.retry",
+            "scrapy.downloadermiddlewares.robotstxt",
+            "scrapy.downloadermiddlewares.stats",
+            "scrapy.downloadermiddlewares.useragent",
+            "scrapy.dupefilters",
+            "scrapy.extensions.closespider",
+            "scrapy.extensions.httpcache",
+            "scrapy.extensions.throttle",
+            "scrapy.http",
+            "scrapy.http.cookies",
+            "scrapy.http.request",
+            "scrapy.http.request.form",
+            "scrapy.http.request.json_request",
+            "scrapy.http.request.rpc",
+            "scrapy.http.response",
+            "scrapy.http.response.html",
+            "scrapy.http.response.json",
+            "scrapy.http.response.text",
+            "scrapy.http.response.xml",
+            "scrapy.linkextractors.lxmlhtml",
+            "scrapy.loader",
+            "scrapy.logformatter",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.images",
+            "scrapy.pipelines.media",
+            "scrapy.responsetypes",
+            "scrapy.selector.unified",
+            "scrapy.shell",
+            "scrapy.spidermiddlewares.depth",
+            "scrapy.spidermiddlewares.httperror",
+            "scrapy.spidermiddlewares.offsite",
+            "scrapy.spidermiddlewares.referer",
+            "scrapy.spidermiddlewares.urllength",
+            "scrapy.spiders",
+            "scrapy.spiders.crawl",
+            "scrapy.spiders.feed",
+            "scrapy.spiders.init",
+            "scrapy.spiders.sitemap",
+            "scrapy.utils.datatypes",
+            "scrapy.utils.gz",
+            "scrapy.utils.httpobj",
+            "scrapy.utils.iterators",
+            "scrapy.utils.response",
+            "scrapy.utils.serialize"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.http",
+            "scrapy.http.headers",
+            "scrapy.http.request",
+            "scrapy.http.request.form",
+            "scrapy.http.request.json_request",
+            "scrapy.http.request.rpc",
+            "scrapy.http.response",
+            "scrapy.http.response.html",
+            "scrapy.http.response.json",
+            "scrapy.http.response.text",
+            "scrapy.http.response.xml"
+        ],
+        "name": "scrapy.http",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/http/__init__.py"
+    },
+    "scrapy.http.cookies": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.downloadermiddlewares.cookies"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.http",
+            "scrapy.utils",
+            "scrapy.utils.httpobj",
+            "scrapy.utils.python",
+            "typing_extensions"
+        ],
+        "name": "scrapy.http.cookies",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/http/cookies.py"
+    },
+    "scrapy.http.headers": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.http2.stream",
+            "scrapy.http",
+            "scrapy.http.request",
+            "scrapy.http.response",
+            "scrapy.utils.datatypes"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.utils",
+            "scrapy.utils.datatypes",
+            "scrapy.utils.python",
+            "typing_extensions",
+            "w3lib",
+            "w3lib.http"
+        ],
+        "name": "scrapy.http.headers",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/http/headers.py"
+    },
+    "scrapy.http.request": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.commands.parse",
+            "scrapy.core.scheduler",
+            "scrapy.downloadermiddlewares.cookies",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.downloadermiddlewares.retry",
+            "scrapy.downloadermiddlewares.robotstxt",
+            "scrapy.dupefilters",
+            "scrapy.extensions.httpcache",
+            "scrapy.http",
+            "scrapy.http.request.form",
+            "scrapy.http.request.json_request",
+            "scrapy.http.request.rpc",
+            "scrapy.http.response",
+            "scrapy.http.response.text",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.images",
+            "scrapy.pipelines.media",
+            "scrapy.spiders",
+            "scrapy.spiders.crawl",
+            "scrapy.spiders.sitemap"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.http",
+            "scrapy.http.headers",
+            "scrapy.utils",
+            "scrapy.utils.curl",
+            "scrapy.utils.python",
+            "scrapy.utils.trackref",
+            "twisted",
+            "twisted.python",
+            "twisted.python.failure",
+            "typing_extensions",
+            "w3lib",
+            "w3lib.url"
+        ],
+        "name": "scrapy.http.request",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/http/request/__init__.py"
+    },
+    "scrapy.http.request.form": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.http"
+        ],
+        "imports": [
+            "lxml",
+            "lxml.html",
+            "parsel",
+            "parsel.csstranslator",
+            "scrapy",
+            "scrapy.http",
+            "scrapy.http.request",
+            "scrapy.http.response",
+            "scrapy.http.response.text",
+            "scrapy.utils",
+            "scrapy.utils.python",
+            "typing_extensions",
+            "w3lib",
+            "w3lib.html"
+        ],
+        "name": "scrapy.http.request.form",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/http/request/form.py"
+    },
+    "scrapy.http.request.json_request": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.http"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.http",
+            "scrapy.http.request",
+            "typing_extensions"
+        ],
+        "name": "scrapy.http.request.json_request",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/http/request/json_request.py"
+    },
+    "scrapy.http.request.rpc": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.http"
+        ],
+        "imports": [
+            "defusedxml",
+            "defusedxml.xmlrpc",
+            "scrapy",
+            "scrapy.http",
+            "scrapy.http.request",
+            "scrapy.utils",
+            "scrapy.utils.python"
+        ],
+        "name": "scrapy.http.request.rpc",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/http/request/rpc.py"
+    },
+    "scrapy.http.response": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.http",
+            "scrapy.http.request.form",
+            "scrapy.http.response.html",
+            "scrapy.http.response.json",
+            "scrapy.http.response.text",
+            "scrapy.http.response.xml"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.http.headers",
+            "scrapy.http.request",
+            "scrapy.link",
+            "scrapy.selector",
+            "scrapy.utils",
+            "scrapy.utils.trackref",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.ssl",
+            "twisted.python",
+            "twisted.python.failure",
+            "typing_extensions"
+        ],
+        "name": "scrapy.http.response",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/http/response/__init__.py"
+    },
+    "scrapy.http.response.html": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.http"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.http",
+            "scrapy.http.response",
+            "scrapy.http.response.text"
+        ],
+        "name": "scrapy.http.response.html",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/http/response/html.py"
+    },
+    "scrapy.http.response.json": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.http"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.http",
+            "scrapy.http.response",
+            "scrapy.http.response.text"
+        ],
+        "name": "scrapy.http.response.json",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/http/response/json.py"
+    },
+    "scrapy.http.response.text": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.http",
+            "scrapy.http.request.form",
+            "scrapy.http.response.html",
+            "scrapy.http.response.json",
+            "scrapy.http.response.xml"
+        ],
+        "imports": [
+            "parsel",
+            "scrapy",
+            "scrapy.http",
+            "scrapy.http.request",
+            "scrapy.http.response",
+            "scrapy.link",
+            "scrapy.selector",
+            "scrapy.utils",
+            "scrapy.utils.python",
+            "scrapy.utils.response",
+            "twisted",
+            "twisted.python",
+            "twisted.python.failure",
+            "w3lib",
+            "w3lib.encoding",
+            "w3lib.html"
+        ],
+        "name": "scrapy.http.response.text",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/http/response/text.py"
+    },
+    "scrapy.http.response.xml": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.http"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.http",
+            "scrapy.http.response",
+            "scrapy.http.response.text"
+        ],
+        "name": "scrapy.http.response.xml",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/http/response/xml.py"
+    },
+    "scrapy.interfaces": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.crawler",
+            "scrapy.spiderloader"
+        ],
+        "name": "scrapy.interfaces",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/interfaces.py"
+    },
+    "scrapy.item": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy",
+            "scrapy.exporters",
+            "scrapy.loader",
+            "scrapy.utils.misc"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.utils",
+            "scrapy.utils.trackref",
+            "typing_extensions"
+        ],
+        "name": "scrapy.item",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/item.py"
+    },
+    "scrapy.link": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.http.response",
+            "scrapy.http.response.text",
+            "scrapy.linkextractors.lxmlhtml",
+            "scrapy.spiders.crawl"
+        ],
+        "name": "scrapy.link",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/link.py"
+    },
+    "scrapy.linkextractors": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.commands.bench",
+            "scrapy.linkextractors",
+            "scrapy.linkextractors.lxmlhtml",
+            "scrapy.spiders.crawl"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.linkextractors",
+            "scrapy.linkextractors.lxmlhtml"
+        ],
+        "name": "scrapy.linkextractors",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/linkextractors/__init__.py"
+    },
+    "scrapy.linkextractors.lxmlhtml": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.linkextractors"
+        ],
+        "imports": [
+            "lxml",
+            "lxml.etree",
+            "lxml.html",
+            "parsel",
+            "parsel.csstranslator",
+            "scrapy",
+            "scrapy.http",
+            "scrapy.link",
+            "scrapy.linkextractors",
+            "scrapy.utils",
+            "scrapy.utils.misc",
+            "scrapy.utils.python",
+            "scrapy.utils.response",
+            "scrapy.utils.url",
+            "w3lib",
+            "w3lib.html",
+            "w3lib.url"
+        ],
+        "name": "scrapy.linkextractors.lxmlhtml",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/linkextractors/lxmlhtml.py"
+    },
+    "scrapy.loader": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "itemloaders",
+            "scrapy",
+            "scrapy.http",
+            "scrapy.item",
+            "scrapy.selector"
+        ],
+        "name": "scrapy.loader",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/loader/__init__.py"
+    },
+    "scrapy.logformatter": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.engine",
+            "scrapy.core.scraper",
+            "scrapy.crawler",
+            "scrapy.utils.log"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.http",
+            "scrapy.utils",
+            "scrapy.utils.python",
+            "scrapy.utils.request",
+            "twisted",
+            "twisted.python",
+            "twisted.python.failure",
+            "typing_extensions"
+        ],
+        "name": "scrapy.logformatter",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/logformatter.py"
+    },
+    "scrapy.mail": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.extensions.memusage",
+            "scrapy.extensions.statsmailer"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.misc",
+            "scrapy.utils.python",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.reactor",
+            "twisted.internet.ssl",
+            "twisted.mail",
+            "twisted.mail.smtp",
+            "twisted.python",
+            "twisted.python.failure",
+            "typing_extensions"
+        ],
+        "name": "scrapy.mail",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/mail.py"
+    },
+    "scrapy.middleware": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader.middleware",
+            "scrapy.core.spidermw",
+            "scrapy.extension",
+            "scrapy.pipelines"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.defer",
+            "scrapy.utils.misc",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "typing_extensions"
+        ],
+        "name": "scrapy.middleware",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/middleware.py"
+    },
+    "scrapy.pipelines": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.scraper",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.images"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.middleware",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.conf",
+            "scrapy.utils.defer",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer"
+        ],
+        "name": "scrapy.pipelines",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/pipelines/__init__.py"
+    },
+    "scrapy.pipelines.files": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.pipelines.images"
+        ],
+        "imports": [
+            "itemadapter",
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.http.request",
+            "scrapy.pipelines",
+            "scrapy.pipelines.media",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.boto",
+            "scrapy.utils.datatypes",
+            "scrapy.utils.deprecate",
+            "scrapy.utils.ftp",
+            "scrapy.utils.log",
+            "scrapy.utils.python",
+            "scrapy.utils.request",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.threads",
+            "twisted.python",
+            "twisted.python.failure",
+            "typing_extensions"
+        ],
+        "name": "scrapy.pipelines.files",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/pipelines/files.py"
+    },
+    "scrapy.pipelines.images": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "itemadapter",
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.http.request",
+            "scrapy.pipelines",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.media",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.python",
+            "typing_extensions"
+        ],
+        "name": "scrapy.pipelines.images",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/pipelines/images.py"
+    },
+    "scrapy.pipelines.media": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.images"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.http.request",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.datatypes",
+            "scrapy.utils.defer",
+            "scrapy.utils.log",
+            "scrapy.utils.misc",
+            "scrapy.utils.python",
+            "scrapy.utils.request",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.python",
+            "twisted.python.failure",
+            "twisted.python.versions",
+            "typing_extensions"
+        ],
+        "name": "scrapy.pipelines.media",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/pipelines/media.py"
+    },
+    "scrapy.pqueues": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.scheduler"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.core",
+            "scrapy.core.downloader",
+            "scrapy.crawler",
+            "scrapy.utils",
+            "scrapy.utils.misc",
+            "typing_extensions"
+        ],
+        "name": "scrapy.pqueues",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/pqueues.py"
+    },
+    "scrapy.resolver": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.utils",
+            "scrapy.utils.datatypes",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.base",
+            "twisted.internet.defer",
+            "twisted.internet.interfaces",
+            "typing_extensions"
+        ],
+        "name": "scrapy.resolver",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/resolver.py"
+    },
+    "scrapy.responsetypes": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader.handlers.datauri",
+            "scrapy.core.downloader.handlers.file",
+            "scrapy.core.downloader.handlers.ftp",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.webclient",
+            "scrapy.core.http2.stream",
+            "scrapy.downloadermiddlewares.httpcompression",
+            "scrapy.extensions.httpcache"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.http",
+            "scrapy.utils",
+            "scrapy.utils.misc",
+            "scrapy.utils.python"
+        ],
+        "name": "scrapy.responsetypes",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/responsetypes.py"
+    },
+    "scrapy.robotstxt": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.downloadermiddlewares.robotstxt"
+        ],
+        "imports": [
+            "protego",
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.utils",
+            "scrapy.utils.python",
+            "typing_extensions"
+        ],
+        "name": "scrapy.robotstxt",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/robotstxt.py"
+    },
+    "scrapy.selector": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy",
+            "scrapy.http.response",
+            "scrapy.http.response.text",
+            "scrapy.loader",
+            "scrapy.selector",
+            "scrapy.spiders.feed",
+            "scrapy.utils.iterators"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.selector",
+            "scrapy.selector.unified"
+        ],
+        "name": "scrapy.selector",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/selector/__init__.py"
+    },
+    "scrapy.selector.unified": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.selector"
+        ],
+        "imports": [
+            "parsel",
+            "scrapy",
+            "scrapy.http",
+            "scrapy.utils",
+            "scrapy.utils.python",
+            "scrapy.utils.response",
+            "scrapy.utils.trackref"
+        ],
+        "name": "scrapy.selector.unified",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/selector/unified.py"
+    },
+    "scrapy.settings": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.addons",
+            "scrapy.cmdline",
+            "scrapy.commands.settings",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.handlers.ftp",
+            "scrapy.core.downloader.handlers.http10",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.downloader.handlers.s3",
+            "scrapy.core.downloader.middleware",
+            "scrapy.core.engine",
+            "scrapy.core.http2.agent",
+            "scrapy.core.http2.protocol",
+            "scrapy.core.spidermw",
+            "scrapy.crawler",
+            "scrapy.downloadermiddlewares.ajaxcrawl",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.downloadermiddlewares.redirect",
+            "scrapy.downloadermiddlewares.retry",
+            "scrapy.dupefilters",
+            "scrapy.extension",
+            "scrapy.extensions.feedexport",
+            "scrapy.extensions.httpcache",
+            "scrapy.mail",
+            "scrapy.middleware",
+            "scrapy.pipelines",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.images",
+            "scrapy.pipelines.media",
+            "scrapy.settings",
+            "scrapy.shell",
+            "scrapy.spiderloader",
+            "scrapy.spidermiddlewares.httperror",
+            "scrapy.spidermiddlewares.referer",
+            "scrapy.spidermiddlewares.urllength",
+            "scrapy.spiders",
+            "scrapy.utils.conf",
+            "scrapy.utils.job",
+            "scrapy.utils.log",
+            "scrapy.utils.project",
+            "scrapy.utils.versions"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.settings",
+            "scrapy.settings.default_settings",
+            "scrapy.utils",
+            "scrapy.utils.misc",
+            "typing_extensions"
+        ],
+        "name": "scrapy.settings",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/settings/__init__.py"
+    },
+    "scrapy.settings.default_settings": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.settings",
+            "scrapy.utils.versions"
+        ],
+        "name": "scrapy.settings.default_settings",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/settings/default_settings.py"
+    },
+    "scrapy.shell": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.commands.shell"
+        ],
+        "imports": [
+            "itemadapter",
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.settings",
+            "scrapy.spiders",
+            "scrapy.utils",
+            "scrapy.utils.conf",
+            "scrapy.utils.console",
+            "scrapy.utils.datatypes",
+            "scrapy.utils.misc",
+            "scrapy.utils.reactor",
+            "scrapy.utils.response",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.reactor",
+            "twisted.internet.threads",
+            "twisted.python",
+            "twisted.python.threadable",
+            "w3lib",
+            "w3lib.url"
+        ],
+        "name": "scrapy.shell",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/shell.py"
+    },
+    "scrapy.signalmanager": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader",
+            "scrapy.core.engine",
+            "scrapy.core.scraper",
+            "scrapy.crawler"
+        ],
+        "imports": [
+            "pydispatch",
+            "pydispatch.dispatcher",
+            "scrapy",
+            "scrapy.utils",
+            "scrapy.utils.signal",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer"
+        ],
+        "name": "scrapy.signalmanager",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/signalmanager.py"
+    },
+    "scrapy.signals": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.handlers",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.engine",
+            "scrapy.core.scraper",
+            "scrapy.crawler",
+            "scrapy.downloadermiddlewares.downloadtimeout",
+            "scrapy.downloadermiddlewares.httpauth",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.downloadermiddlewares.httpcompression",
+            "scrapy.downloadermiddlewares.offsite",
+            "scrapy.downloadermiddlewares.useragent",
+            "scrapy.extensions.closespider",
+            "scrapy.extensions.corestats",
+            "scrapy.extensions.feedexport",
+            "scrapy.extensions.logstats",
+            "scrapy.extensions.memdebug",
+            "scrapy.extensions.memusage",
+            "scrapy.extensions.periodic_log",
+            "scrapy.extensions.spiderstate",
+            "scrapy.extensions.statsmailer",
+            "scrapy.extensions.telnet",
+            "scrapy.extensions.throttle",
+            "scrapy.spidermiddlewares.offsite",
+            "scrapy.spidermiddlewares.referer",
+            "scrapy.spiders"
+        ],
+        "name": "scrapy.signals",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/signals.py"
+    },
+    "scrapy.spiderloader": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.crawler",
+            "scrapy.utils.spider"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.interfaces",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.misc",
+            "scrapy.utils.spider",
+            "typing_extensions"
+        ],
+        "name": "scrapy.spiderloader",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/spiderloader.py"
+    },
+    "scrapy.spidermiddlewares": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "scrapy.spidermiddlewares",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/spidermiddlewares/__init__.py"
+    },
+    "scrapy.spidermiddlewares.depth": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.http",
+            "scrapy.statscollectors",
+            "typing_extensions"
+        ],
+        "name": "scrapy.spidermiddlewares.depth",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/spidermiddlewares/depth.py"
+    },
+    "scrapy.spidermiddlewares.httperror": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.settings",
+            "typing_extensions"
+        ],
+        "name": "scrapy.spidermiddlewares.httperror",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/spidermiddlewares/httperror.py"
+    },
+    "scrapy.spidermiddlewares.offsite": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.signals",
+            "scrapy.statscollectors",
+            "scrapy.utils",
+            "scrapy.utils.httpobj",
+            "typing_extensions"
+        ],
+        "name": "scrapy.spidermiddlewares.offsite",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/spidermiddlewares/offsite.py"
+    },
+    "scrapy.spidermiddlewares.referer": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.settings",
+            "scrapy.signals",
+            "scrapy.utils",
+            "scrapy.utils.misc",
+            "scrapy.utils.python",
+            "scrapy.utils.url",
+            "typing_extensions",
+            "w3lib",
+            "w3lib.url"
+        ],
+        "name": "scrapy.spidermiddlewares.referer",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/spidermiddlewares/referer.py"
+    },
+    "scrapy.spidermiddlewares.urllength": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.settings",
+            "typing_extensions"
+        ],
+        "name": "scrapy.spidermiddlewares.urllength",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/spidermiddlewares/urllength.py"
+    },
+    "scrapy.spiders": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy",
+            "scrapy.commands.parse",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.engine",
+            "scrapy.core.http2.agent",
+            "scrapy.core.http2.protocol",
+            "scrapy.core.scheduler",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.downloadermiddlewares.retry",
+            "scrapy.dupefilters",
+            "scrapy.extensions.httpcache",
+            "scrapy.shell",
+            "scrapy.spiders",
+            "scrapy.spiders.crawl",
+            "scrapy.spiders.feed",
+            "scrapy.spiders.init",
+            "scrapy.spiders.sitemap",
+            "scrapy.utils.spider"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.http",
+            "scrapy.http.request",
+            "scrapy.settings",
+            "scrapy.signals",
+            "scrapy.spiders",
+            "scrapy.spiders.crawl",
+            "scrapy.spiders.feed",
+            "scrapy.spiders.sitemap",
+            "scrapy.utils",
+            "scrapy.utils.log",
+            "scrapy.utils.trackref",
+            "scrapy.utils.url",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "typing_extensions"
+        ],
+        "name": "scrapy.spiders",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/spiders/__init__.py"
+    },
+    "scrapy.spiders.crawl": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.spiders"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.http",
+            "scrapy.http.request",
+            "scrapy.link",
+            "scrapy.linkextractors",
+            "scrapy.spiders",
+            "scrapy.utils",
+            "scrapy.utils.asyncgen",
+            "scrapy.utils.spider",
+            "twisted",
+            "twisted.python",
+            "twisted.python.failure",
+            "typing_extensions"
+        ],
+        "name": "scrapy.spiders.crawl",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/spiders/crawl.py"
+    },
+    "scrapy.spiders.feed": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.spiders"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.selector",
+            "scrapy.spiders",
+            "scrapy.utils",
+            "scrapy.utils.iterators",
+            "scrapy.utils.spider"
+        ],
+        "name": "scrapy.spiders.feed",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/spiders/feed.py"
+    },
+    "scrapy.spiders.init": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.spiders",
+            "scrapy.utils",
+            "scrapy.utils.spider"
+        ],
+        "name": "scrapy.spiders.init",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/spiders/init.py"
+    },
+    "scrapy.spiders.sitemap": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.spiders"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.http",
+            "scrapy.http.request",
+            "scrapy.spiders",
+            "scrapy.utils",
+            "scrapy.utils._compression",
+            "scrapy.utils.gz",
+            "scrapy.utils.sitemap",
+            "typing_extensions"
+        ],
+        "name": "scrapy.spiders.sitemap",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/spiders/sitemap.py"
+    },
+    "scrapy.squeues": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "queuelib",
+            "queuelib.queue",
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.utils",
+            "scrapy.utils.request",
+            "typing_extensions"
+        ],
+        "name": "scrapy.squeues",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/squeues.py"
+    },
+    "scrapy.statscollectors": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.scheduler",
+            "scrapy.crawler",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.downloadermiddlewares.httpcompression",
+            "scrapy.downloadermiddlewares.offsite",
+            "scrapy.downloadermiddlewares.stats",
+            "scrapy.extensions.corestats",
+            "scrapy.extensions.logstats",
+            "scrapy.extensions.memdebug",
+            "scrapy.extensions.periodic_log",
+            "scrapy.extensions.statsmailer",
+            "scrapy.spidermiddlewares.depth",
+            "scrapy.spidermiddlewares.offsite"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler"
+        ],
+        "name": "scrapy.statscollectors",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/statscollectors.py"
+    },
+    "scrapy.utils": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.addons",
+            "scrapy.cmdline",
+            "scrapy.commands",
+            "scrapy.commands.bench",
+            "scrapy.commands.check",
+            "scrapy.commands.fetch",
+            "scrapy.commands.genspider",
+            "scrapy.commands.parse",
+            "scrapy.commands.runspider",
+            "scrapy.commands.shell",
+            "scrapy.commands.startproject",
+            "scrapy.commands.version",
+            "scrapy.commands.view",
+            "scrapy.contracts",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.handlers",
+            "scrapy.core.downloader.handlers.datauri",
+            "scrapy.core.downloader.handlers.file",
+            "scrapy.core.downloader.handlers.ftp",
+            "scrapy.core.downloader.handlers.http10",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.downloader.handlers.s3",
+            "scrapy.core.downloader.middleware",
+            "scrapy.core.downloader.tls",
+            "scrapy.core.downloader.webclient",
+            "scrapy.core.engine",
+            "scrapy.core.http2.stream",
+            "scrapy.core.scheduler",
+            "scrapy.core.scraper",
+            "scrapy.core.spidermw",
+            "scrapy.crawler",
+            "scrapy.downloadermiddlewares.ajaxcrawl",
+            "scrapy.downloadermiddlewares.cookies",
+            "scrapy.downloadermiddlewares.defaultheaders",
+            "scrapy.downloadermiddlewares.httpauth",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.downloadermiddlewares.httpcompression",
+            "scrapy.downloadermiddlewares.httpproxy",
+            "scrapy.downloadermiddlewares.offsite",
+            "scrapy.downloadermiddlewares.redirect",
+            "scrapy.downloadermiddlewares.retry",
+            "scrapy.downloadermiddlewares.robotstxt",
+            "scrapy.downloadermiddlewares.stats",
+            "scrapy.dupefilters",
+            "scrapy.exporters",
+            "scrapy.extension",
+            "scrapy.extensions.debug",
+            "scrapy.extensions.feedexport",
+            "scrapy.extensions.httpcache",
+            "scrapy.extensions.memdebug",
+            "scrapy.extensions.memusage",
+            "scrapy.extensions.periodic_log",
+            "scrapy.extensions.postprocessing",
+            "scrapy.extensions.spiderstate",
+            "scrapy.extensions.telnet",
+            "scrapy.http.cookies",
+            "scrapy.http.headers",
+            "scrapy.http.request",
+            "scrapy.http.request.form",
+            "scrapy.http.request.rpc",
+            "scrapy.http.response",
+            "scrapy.http.response.text",
+            "scrapy.item",
+            "scrapy.linkextractors.lxmlhtml",
+            "scrapy.logformatter",
+            "scrapy.mail",
+            "scrapy.middleware",
+            "scrapy.pipelines",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.images",
+            "scrapy.pipelines.media",
+            "scrapy.pqueues",
+            "scrapy.resolver",
+            "scrapy.responsetypes",
+            "scrapy.robotstxt",
+            "scrapy.selector.unified",
+            "scrapy.settings",
+            "scrapy.shell",
+            "scrapy.signalmanager",
+            "scrapy.spiderloader",
+            "scrapy.spidermiddlewares.offsite",
+            "scrapy.spidermiddlewares.referer",
+            "scrapy.spiders",
+            "scrapy.spiders.crawl",
+            "scrapy.spiders.feed",
+            "scrapy.spiders.init",
+            "scrapy.spiders.sitemap",
+            "scrapy.squeues",
+            "scrapy.utils.conf",
+            "scrapy.utils.defer",
+            "scrapy.utils.iterators",
+            "scrapy.utils.log",
+            "scrapy.utils.misc",
+            "scrapy.utils.project",
+            "scrapy.utils.python",
+            "scrapy.utils.reactor",
+            "scrapy.utils.request",
+            "scrapy.utils.response",
+            "scrapy.utils.signal",
+            "scrapy.utils.spider",
+            "scrapy.utils.ssl",
+            "scrapy.utils.test",
+            "scrapy.utils.versions"
+        ],
+        "name": "scrapy.utils",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/__init__.py"
+    },
+    "scrapy.utils._compression": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.downloadermiddlewares.httpcompression",
+            "scrapy.spiders.sitemap",
+            "scrapy.utils.gz"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.exceptions"
+        ],
+        "name": "scrapy.utils._compression",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/_compression.py"
+    },
+    "scrapy.utils.asyncgen": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.commands.parse",
+            "scrapy.core.spidermw",
+            "scrapy.spiders.crawl",
+            "scrapy.utils.python"
+        ],
+        "name": "scrapy.utils.asyncgen",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/asyncgen.py"
+    },
+    "scrapy.utils.benchserver": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.reactor",
+            "twisted.web",
+            "twisted.web.resource",
+            "twisted.web.server"
+        ],
+        "name": "scrapy.utils.benchserver",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/benchserver.py"
+    },
+    "scrapy.utils.boto": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader.handlers.s3",
+            "scrapy.pipelines.files",
+            "scrapy.utils.test"
+        ],
+        "name": "scrapy.utils.boto",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/boto.py"
+    },
+    "scrapy.utils.conf": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.addons",
+            "scrapy.commands",
+            "scrapy.commands.check",
+            "scrapy.core.downloader.middleware",
+            "scrapy.core.spidermw",
+            "scrapy.extension",
+            "scrapy.extensions.feedexport",
+            "scrapy.pipelines",
+            "scrapy.shell",
+            "scrapy.utils.project"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.exceptions",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.deprecate",
+            "scrapy.utils.python"
+        ],
+        "name": "scrapy.utils.conf",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/conf.py"
+    },
+    "scrapy.utils.console": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.shell"
+        ],
+        "name": "scrapy.utils.console",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/console.py"
+    },
+    "scrapy.utils.curl": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.http.request"
+        ],
+        "imports": [
+            "w3lib",
+            "w3lib.http"
+        ],
+        "name": "scrapy.utils.curl",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/curl.py"
+    },
+    "scrapy.utils.datatypes": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.commands.fetch",
+            "scrapy.http.headers",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.media",
+            "scrapy.resolver",
+            "scrapy.shell",
+            "scrapy.utils.misc"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.http.headers",
+            "typing_extensions"
+        ],
+        "name": "scrapy.utils.datatypes",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/datatypes.py"
+    },
+    "scrapy.utils.decorators": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader.handlers.datauri",
+            "scrapy.core.downloader.handlers.file",
+            "scrapy.extensions.telnet"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.exceptions",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.threads",
+            "typing_extensions"
+        ],
+        "name": "scrapy.utils.decorators",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/decorators.py"
+    },
+    "scrapy.utils.defer": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.commands.parse",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.middleware",
+            "scrapy.core.scraper",
+            "scrapy.core.spidermw",
+            "scrapy.extensions.feedexport",
+            "scrapy.middleware",
+            "scrapy.pipelines",
+            "scrapy.pipelines.media",
+            "scrapy.utils.signal",
+            "scrapy.utils.spider"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.exceptions",
+            "scrapy.utils",
+            "scrapy.utils.reactor",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.reactor",
+            "twisted.internet.task",
+            "twisted.python",
+            "twisted.python.failure",
+            "typing_extensions"
+        ],
+        "name": "scrapy.utils.defer",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/defer.py"
+    },
+    "scrapy.utils.deprecate": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.pipelines.files",
+            "scrapy.utils.conf",
+            "scrapy.utils.test"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.exceptions"
+        ],
+        "name": "scrapy.utils.deprecate",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/deprecate.py"
+    },
+    "scrapy.utils.display": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.commands.parse"
+        ],
+        "imports": [
+            "packaging",
+            "packaging.version"
+        ],
+        "name": "scrapy.utils.display",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/display.py"
+    },
+    "scrapy.utils.engine": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.extensions.debug",
+            "scrapy.extensions.memusage",
+            "scrapy.extensions.telnet"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.core",
+            "scrapy.core.engine"
+        ],
+        "name": "scrapy.utils.engine",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/engine.py"
+    },
+    "scrapy.utils.ftp": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.extensions.feedexport",
+            "scrapy.pipelines.files"
+        ],
+        "name": "scrapy.utils.ftp",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/ftp.py"
+    },
+    "scrapy.utils.gz": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.downloadermiddlewares.httpcompression",
+            "scrapy.spiders.sitemap"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.http",
+            "scrapy.utils._compression"
+        ],
+        "name": "scrapy.utils.gz",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/gz.py"
+    },
+    "scrapy.utils.httpobj": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.handlers",
+            "scrapy.core.downloader.handlers.ftp",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.downloader.handlers.s3",
+            "scrapy.core.downloader.webclient",
+            "scrapy.core.http2.stream",
+            "scrapy.downloadermiddlewares.cookies",
+            "scrapy.downloadermiddlewares.httpproxy",
+            "scrapy.downloadermiddlewares.offsite",
+            "scrapy.downloadermiddlewares.redirect",
+            "scrapy.downloadermiddlewares.robotstxt",
+            "scrapy.extensions.httpcache",
+            "scrapy.http.cookies",
+            "scrapy.spidermiddlewares.offsite",
+            "scrapy.utils.request"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.http"
+        ],
+        "name": "scrapy.utils.httpobj",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/httpobj.py"
+    },
+    "scrapy.utils.iterators": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.spiders.feed"
+        ],
+        "imports": [
+            "lxml",
+            "lxml.etree",
+            "scrapy",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "scrapy.selector",
+            "scrapy.utils",
+            "scrapy.utils.python"
+        ],
+        "name": "scrapy.utils.iterators",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/iterators.py"
+    },
+    "scrapy.utils.job": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.scheduler",
+            "scrapy.dupefilters",
+            "scrapy.extensions.spiderstate"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.settings"
+        ],
+        "name": "scrapy.utils.job",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/job.py"
+    },
+    "scrapy.utils.log": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.commands.parse",
+            "scrapy.core.engine",
+            "scrapy.core.scraper",
+            "scrapy.crawler",
+            "scrapy.downloadermiddlewares.robotstxt",
+            "scrapy.extensions.feedexport",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.media",
+            "scrapy.spiders",
+            "scrapy.utils.signal"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.logformatter",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.versions",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.asyncioreactor",
+            "twisted.internet.reactor",
+            "twisted.python",
+            "twisted.python.failure",
+            "twisted.python.log"
+        ],
+        "name": "scrapy.utils.log",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/log.py"
+    },
+    "scrapy.utils.misc": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.addons",
+            "scrapy.cmdline",
+            "scrapy.commands.check",
+            "scrapy.commands.parse",
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.handlers",
+            "scrapy.core.downloader.handlers.http10",
+            "scrapy.core.downloader.handlers.s3",
+            "scrapy.core.engine",
+            "scrapy.core.scheduler",
+            "scrapy.core.scraper",
+            "scrapy.crawler",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.downloadermiddlewares.retry",
+            "scrapy.downloadermiddlewares.robotstxt",
+            "scrapy.extensions.feedexport",
+            "scrapy.extensions.postprocessing",
+            "scrapy.linkextractors.lxmlhtml",
+            "scrapy.mail",
+            "scrapy.middleware",
+            "scrapy.pipelines.media",
+            "scrapy.pqueues",
+            "scrapy.responsetypes",
+            "scrapy.settings",
+            "scrapy.shell",
+            "scrapy.spiderloader",
+            "scrapy.spidermiddlewares.referer",
+            "scrapy.utils.reactor",
+            "scrapy.utils.request",
+            "scrapy.utils.spider"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.item",
+            "scrapy.utils",
+            "scrapy.utils.datatypes"
+        ],
+        "name": "scrapy.utils.misc",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/misc.py"
+    },
+    "scrapy.utils.ossignal": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.crawler"
+        ],
+        "name": "scrapy.utils.ossignal",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/ossignal.py"
+    },
+    "scrapy.utils.project": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.cmdline",
+            "scrapy.extensions.httpcache"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.exceptions",
+            "scrapy.settings",
+            "scrapy.utils",
+            "scrapy.utils.conf"
+        ],
+        "name": "scrapy.utils.project",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/project.py"
+    },
+    "scrapy.utils.python": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.cmdline",
+            "scrapy.contracts",
+            "scrapy.core.downloader.handlers",
+            "scrapy.core.downloader.handlers.ftp",
+            "scrapy.core.downloader.handlers.http10",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.downloader.webclient",
+            "scrapy.core.spidermw",
+            "scrapy.downloadermiddlewares.cookies",
+            "scrapy.downloadermiddlewares.defaultheaders",
+            "scrapy.downloadermiddlewares.httpproxy",
+            "scrapy.downloadermiddlewares.retry",
+            "scrapy.downloadermiddlewares.stats",
+            "scrapy.exporters",
+            "scrapy.extensions.feedexport",
+            "scrapy.extensions.httpcache",
+            "scrapy.http.cookies",
+            "scrapy.http.headers",
+            "scrapy.http.request",
+            "scrapy.http.request.form",
+            "scrapy.http.request.rpc",
+            "scrapy.http.response.text",
+            "scrapy.linkextractors.lxmlhtml",
+            "scrapy.logformatter",
+            "scrapy.mail",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.images",
+            "scrapy.pipelines.media",
+            "scrapy.responsetypes",
+            "scrapy.robotstxt",
+            "scrapy.selector.unified",
+            "scrapy.spidermiddlewares.referer",
+            "scrapy.utils.conf",
+            "scrapy.utils.iterators",
+            "scrapy.utils.request",
+            "scrapy.utils.response",
+            "scrapy.utils.ssl"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.exceptions",
+            "scrapy.utils",
+            "scrapy.utils.asyncgen",
+            "typing_extensions"
+        ],
+        "name": "scrapy.utils.python",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/python.py"
+    },
+    "scrapy.utils.reactor": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.engine",
+            "scrapy.crawler",
+            "scrapy.extensions.telnet",
+            "scrapy.shell",
+            "scrapy.utils.defer",
+            "scrapy.utils.test"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.utils",
+            "scrapy.utils.misc",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.asyncioreactor",
+            "twisted.internet.base",
+            "twisted.internet.error",
+            "twisted.internet.protocol",
+            "twisted.internet.reactor",
+            "twisted.internet.tcp",
+            "typing_extensions"
+        ],
+        "name": "scrapy.utils.reactor",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/reactor.py"
+    },
+    "scrapy.utils.request": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.crawler",
+            "scrapy.downloadermiddlewares.stats",
+            "scrapy.dupefilters",
+            "scrapy.extensions.httpcache",
+            "scrapy.logformatter",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.media",
+            "scrapy.squeues"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.utils",
+            "scrapy.utils.httpobj",
+            "scrapy.utils.misc",
+            "scrapy.utils.python",
+            "typing_extensions",
+            "w3lib",
+            "w3lib.http",
+            "w3lib.url"
+        ],
+        "name": "scrapy.utils.request",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/request.py"
+    },
+    "scrapy.utils.response": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.commands.view",
+            "scrapy.downloadermiddlewares.redirect",
+            "scrapy.downloadermiddlewares.retry",
+            "scrapy.http.response.text",
+            "scrapy.linkextractors.lxmlhtml",
+            "scrapy.selector.unified",
+            "scrapy.shell"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.http",
+            "scrapy.utils",
+            "scrapy.utils.python",
+            "twisted",
+            "twisted.web",
+            "twisted.web.http",
+            "w3lib",
+            "w3lib.html"
+        ],
+        "name": "scrapy.utils.response",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/response.py"
+    },
+    "scrapy.utils.serialize": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.exporters",
+            "scrapy.extensions.periodic_log"
+        ],
+        "imports": [
+            "itemadapter",
+            "scrapy",
+            "scrapy.exceptions",
+            "scrapy.http",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer"
+        ],
+        "name": "scrapy.utils.serialize",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/serialize.py"
+    },
+    "scrapy.utils.signal": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.signalmanager"
+        ],
+        "imports": [
+            "pydispatch",
+            "pydispatch.dispatcher",
+            "pydispatch.robustapply",
+            "scrapy",
+            "scrapy.exceptions",
+            "scrapy.utils",
+            "scrapy.utils.defer",
+            "scrapy.utils.log",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.python",
+            "twisted.python.failure"
+        ],
+        "name": "scrapy.utils.signal",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/signal.py"
+    },
+    "scrapy.utils.sitemap": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.spiders.sitemap"
+        ],
+        "imports": [
+            "lxml",
+            "lxml.etree"
+        ],
+        "name": "scrapy.utils.sitemap",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/sitemap.py"
+    },
+    "scrapy.utils.spider": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.commands.fetch",
+            "scrapy.commands.parse",
+            "scrapy.commands.runspider",
+            "scrapy.commands.shell",
+            "scrapy.contracts",
+            "scrapy.core.scraper",
+            "scrapy.spiderloader",
+            "scrapy.spiders.crawl",
+            "scrapy.spiders.feed",
+            "scrapy.spiders.init",
+            "scrapy.utils.test"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.spiderloader",
+            "scrapy.spiders",
+            "scrapy.utils",
+            "scrapy.utils.defer",
+            "scrapy.utils.misc",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer"
+        ],
+        "name": "scrapy.utils.spider",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/spider.py"
+    },
+    "scrapy.utils.ssl": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.core.downloader.tls",
+            "scrapy.utils.versions"
+        ],
+        "imports": [
+            "OpenSSL",
+            "OpenSSL.SSL",
+            "OpenSSL._util",
+            "OpenSSL.crypto",
+            "OpenSSL.version",
+            "scrapy",
+            "scrapy.utils",
+            "scrapy.utils.python"
+        ],
+        "name": "scrapy.utils.ssl",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/ssl.py"
+    },
+    "scrapy.utils.template": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.commands.genspider",
+            "scrapy.commands.startproject"
+        ],
+        "name": "scrapy.utils.template",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/template.py"
+    },
+    "scrapy.utils.test": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.commands.bench"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.crawler",
+            "scrapy.exceptions",
+            "scrapy.utils",
+            "scrapy.utils.boto",
+            "scrapy.utils.deprecate",
+            "scrapy.utils.reactor",
+            "scrapy.utils.spider",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.reactor",
+            "twisted.trial",
+            "twisted.trial.unittest",
+            "twisted.web",
+            "twisted.web.client"
+        ],
+        "name": "scrapy.utils.test",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/test.py"
+    },
+    "scrapy.utils.testproc": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.exceptions",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.error",
+            "twisted.internet.protocol",
+            "twisted.internet.reactor",
+            "twisted.python",
+            "twisted.python.failure"
+        ],
+        "name": "scrapy.utils.testproc",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/testproc.py"
+    },
+    "scrapy.utils.testsite": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.exceptions",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.reactor",
+            "twisted.web",
+            "twisted.web.resource",
+            "twisted.web.server",
+            "twisted.web.static",
+            "twisted.web.util"
+        ],
+        "name": "scrapy.utils.testsite",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/testsite.py"
+    },
+    "scrapy.utils.trackref": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.extensions.debug",
+            "scrapy.extensions.memdebug",
+            "scrapy.extensions.telnet",
+            "scrapy.http.request",
+            "scrapy.http.response",
+            "scrapy.item",
+            "scrapy.selector.unified",
+            "scrapy.spiders"
+        ],
+        "imports": [
+            "typing_extensions"
+        ],
+        "name": "scrapy.utils.trackref",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/trackref.py"
+    },
+    "scrapy.utils.url": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.commands.shell",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.downloadermiddlewares.ajaxcrawl",
+            "scrapy.downloadermiddlewares.httpauth",
+            "scrapy.linkextractors.lxmlhtml",
+            "scrapy.spidermiddlewares.referer",
+            "scrapy.spiders"
+        ],
+        "imports": [
+            "scrapy",
+            "scrapy.exceptions",
+            "w3lib",
+            "w3lib.url"
+        ],
+        "name": "scrapy.utils.url",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/url.py"
+    },
+    "scrapy.utils.versions": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "scrapy.commands.version",
+            "scrapy.utils.log"
+        ],
+        "imports": [
+            "lxml",
+            "lxml.etree",
+            "scrapy",
+            "scrapy.exceptions",
+            "scrapy.settings",
+            "scrapy.settings.default_settings",
+            "scrapy.utils",
+            "scrapy.utils.ssl"
+        ],
+        "name": "scrapy.utils.versions",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/scrapy/utils/versions.py"
+    },
+    "service_identity": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.downloader.tls",
+            "service_identity",
+            "twisted.internet._sslverify"
+        ],
+        "imports": [
+            "service_identity",
+            "service_identity.exceptions"
+        ],
+        "name": "service_identity",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/service_identity/__init__.py"
+    },
+    "service_identity.exceptions": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.downloader.tls",
+            "service_identity"
+        ],
+        "name": "service_identity.exceptions",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/service_identity/exceptions.py"
+    },
+    "tldextract": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.downloadermiddlewares.cookies",
+            "tldextract"
+        ],
+        "imports": [
+            "tldextract"
+        ],
+        "name": "tldextract",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/tldextract/__init__.py"
+    },
+    "twisted": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy",
+            "scrapy.commands",
+            "scrapy.commands.crawl",
+            "scrapy.commands.parse",
+            "scrapy.contracts",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.handlers",
+            "scrapy.core.downloader.handlers.ftp",
+            "scrapy.core.downloader.handlers.http10",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.downloader.handlers.s3",
+            "scrapy.core.downloader.middleware",
+            "scrapy.core.downloader.tls",
+            "scrapy.core.downloader.webclient",
+            "scrapy.core.engine",
+            "scrapy.core.http2.agent",
+            "scrapy.core.http2.protocol",
+            "scrapy.core.http2.stream",
+            "scrapy.core.scheduler",
+            "scrapy.core.scraper",
+            "scrapy.core.spidermw",
+            "scrapy.crawler",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.downloadermiddlewares.robotstxt",
+            "scrapy.downloadermiddlewares.stats",
+            "scrapy.dupefilters",
+            "scrapy.extensions.closespider",
+            "scrapy.extensions.feedexport",
+            "scrapy.extensions.logstats",
+            "scrapy.extensions.memusage",
+            "scrapy.extensions.periodic_log",
+            "scrapy.extensions.statsmailer",
+            "scrapy.extensions.telnet",
+            "scrapy.http.request",
+            "scrapy.http.response",
+            "scrapy.http.response.text",
+            "scrapy.logformatter",
+            "scrapy.mail",
+            "scrapy.middleware",
+            "scrapy.pipelines",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.media",
+            "scrapy.resolver",
+            "scrapy.shell",
+            "scrapy.signalmanager",
+            "scrapy.spiders",
+            "scrapy.spiders.crawl",
+            "scrapy.utils.benchserver",
+            "scrapy.utils.decorators",
+            "scrapy.utils.defer",
+            "scrapy.utils.log",
+            "scrapy.utils.reactor",
+            "scrapy.utils.response",
+            "scrapy.utils.serialize",
+            "scrapy.utils.signal",
+            "scrapy.utils.spider",
+            "scrapy.utils.test",
+            "scrapy.utils.testproc",
+            "scrapy.utils.testsite",
+            "twisted",
+            "twisted.conch.insults.insults",
+            "twisted.conch.manhole",
+            "twisted.conch.telnet",
+            "twisted.internet._sslverify",
+            "twisted.internet.asyncioreactor",
+            "twisted.internet.base",
+            "twisted.internet.defer",
+            "twisted.internet.endpoints",
+            "twisted.internet.error",
+            "twisted.internet.interfaces",
+            "twisted.internet.protocol",
+            "twisted.internet.reactor",
+            "twisted.internet.ssl",
+            "twisted.internet.task",
+            "twisted.internet.tcp",
+            "twisted.internet.threads",
+            "twisted.mail.smtp",
+            "twisted.protocols.ftp",
+            "twisted.protocols.policies",
+            "twisted.python.failure",
+            "twisted.python.log",
+            "twisted.trial.unittest",
+            "twisted.web.client",
+            "twisted.web.error",
+            "twisted.web.http",
+            "twisted.web.http_headers",
+            "twisted.web.iweb",
+            "twisted.web.resource",
+            "twisted.web.server",
+            "twisted.web.static"
+        ],
+        "imports": [
+            "twisted"
+        ],
+        "name": "twisted",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/__init__.py"
+    },
+    "twisted.conch": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.extensions.telnet",
+            "twisted.conch.manhole"
+        ],
+        "name": "twisted.conch",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/conch/__init__.py"
+    },
+    "twisted.conch.insults": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.extensions.telnet"
+        ],
+        "name": "twisted.conch.insults",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/conch/insults/__init__.py"
+    },
+    "twisted.conch.insults.insults": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.extensions.telnet"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.interfaces",
+            "twisted.internet.protocol",
+            "twisted.python"
+        ],
+        "name": "twisted.conch.insults.insults",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/conch/insults/insults.py"
+    },
+    "twisted.conch.manhole": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.extensions.telnet"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.conch",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.python"
+        ],
+        "name": "twisted.conch.manhole",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/conch/manhole.py"
+    },
+    "twisted.conch.telnet": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.extensions.telnet"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.interfaces",
+            "twisted.internet.protocol",
+            "twisted.protocols",
+            "twisted.python"
+        ],
+        "name": "twisted.conch.telnet",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/conch/telnet.py"
+    },
+    "twisted.internet": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.commands.parse",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.handlers",
+            "scrapy.core.downloader.handlers.ftp",
+            "scrapy.core.downloader.handlers.http10",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.downloader.handlers.s3",
+            "scrapy.core.downloader.middleware",
+            "scrapy.core.downloader.tls",
+            "scrapy.core.downloader.webclient",
+            "scrapy.core.engine",
+            "scrapy.core.http2.agent",
+            "scrapy.core.http2.protocol",
+            "scrapy.core.http2.stream",
+            "scrapy.core.scheduler",
+            "scrapy.core.scraper",
+            "scrapy.core.spidermw",
+            "scrapy.crawler",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.downloadermiddlewares.robotstxt",
+            "scrapy.dupefilters",
+            "scrapy.extensions.closespider",
+            "scrapy.extensions.feedexport",
+            "scrapy.extensions.logstats",
+            "scrapy.extensions.memusage",
+            "scrapy.extensions.periodic_log",
+            "scrapy.extensions.statsmailer",
+            "scrapy.extensions.telnet",
+            "scrapy.http.response",
+            "scrapy.mail",
+            "scrapy.middleware",
+            "scrapy.pipelines",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.media",
+            "scrapy.resolver",
+            "scrapy.shell",
+            "scrapy.signalmanager",
+            "scrapy.spiders",
+            "scrapy.utils.benchserver",
+            "scrapy.utils.decorators",
+            "scrapy.utils.defer",
+            "scrapy.utils.log",
+            "scrapy.utils.reactor",
+            "scrapy.utils.serialize",
+            "scrapy.utils.signal",
+            "scrapy.utils.spider",
+            "scrapy.utils.test",
+            "scrapy.utils.testproc",
+            "scrapy.utils.testsite",
+            "twisted.conch.insults.insults",
+            "twisted.conch.manhole",
+            "twisted.conch.telnet",
+            "twisted.internet._sslverify",
+            "twisted.internet.asyncioreactor",
+            "twisted.internet.base",
+            "twisted.internet.defer",
+            "twisted.internet.endpoints",
+            "twisted.internet.interfaces",
+            "twisted.internet.protocol",
+            "twisted.internet.reactor",
+            "twisted.internet.ssl",
+            "twisted.internet.task",
+            "twisted.internet.tcp",
+            "twisted.internet.threads",
+            "twisted.mail.smtp",
+            "twisted.protocols.ftp",
+            "twisted.protocols.policies",
+            "twisted.web.client",
+            "twisted.web.http",
+            "twisted.web.iweb",
+            "twisted.web.server",
+            "twisted.web.static"
+        ],
+        "name": "twisted.internet",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/internet/__init__.py"
+    },
+    "twisted.internet._sslverify": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.tls",
+            "twisted.internet.ssl"
+        ],
+        "imports": [
+            "OpenSSL",
+            "OpenSSL.SSL",
+            "OpenSSL._util",
+            "OpenSSL.crypto",
+            "service_identity",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.error",
+            "twisted.internet.interfaces",
+            "twisted.python",
+            "twisted.python.failure"
+        ],
+        "name": "twisted.internet._sslverify",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/internet/_sslverify.py"
+    },
+    "twisted.internet.asyncioreactor": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.utils.log",
+            "scrapy.utils.reactor"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.interfaces",
+            "twisted.python",
+            "twisted.python.log"
+        ],
+        "name": "twisted.internet.asyncioreactor",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/internet/asyncioreactor.py"
+    },
+    "twisted.internet.base": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.http2.agent",
+            "scrapy.resolver",
+            "scrapy.utils.reactor",
+            "twisted.internet.task",
+            "twisted.internet.tcp"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.error",
+            "twisted.internet.interfaces",
+            "twisted.internet.protocol",
+            "twisted.internet.tcp",
+            "twisted.internet.threads",
+            "twisted.python",
+            "twisted.python.failure",
+            "twisted.python.log",
+            "twisted.python.threadable"
+        ],
+        "name": "twisted.internet.base",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/internet/base.py"
+    },
+    "twisted.internet.defer": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.commands.parse",
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.handlers",
+            "scrapy.core.downloader.handlers.ftp",
+            "scrapy.core.downloader.handlers.http10",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.downloader.handlers.s3",
+            "scrapy.core.downloader.middleware",
+            "scrapy.core.downloader.webclient",
+            "scrapy.core.engine",
+            "scrapy.core.http2.agent",
+            "scrapy.core.http2.protocol",
+            "scrapy.core.http2.stream",
+            "scrapy.core.scheduler",
+            "scrapy.core.scraper",
+            "scrapy.core.spidermw",
+            "scrapy.crawler",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.downloadermiddlewares.robotstxt",
+            "scrapy.dupefilters",
+            "scrapy.extensions.feedexport",
+            "scrapy.extensions.statsmailer",
+            "scrapy.mail",
+            "scrapy.middleware",
+            "scrapy.pipelines",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.media",
+            "scrapy.resolver",
+            "scrapy.shell",
+            "scrapy.signalmanager",
+            "scrapy.spiders",
+            "scrapy.utils.decorators",
+            "scrapy.utils.defer",
+            "scrapy.utils.serialize",
+            "scrapy.utils.signal",
+            "scrapy.utils.spider",
+            "scrapy.utils.test",
+            "scrapy.utils.testproc",
+            "twisted.conch.insults.insults",
+            "twisted.conch.manhole",
+            "twisted.conch.telnet",
+            "twisted.internet._sslverify",
+            "twisted.internet.base",
+            "twisted.internet.endpoints",
+            "twisted.internet.interfaces",
+            "twisted.internet.protocol",
+            "twisted.internet.task",
+            "twisted.internet.threads",
+            "twisted.mail.smtp",
+            "twisted.protocols.ftp",
+            "twisted.web.client",
+            "twisted.web.http",
+            "twisted.web.iweb"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.interfaces",
+            "twisted.internet.reactor",
+            "twisted.python",
+            "twisted.python.failure",
+            "typing_extensions"
+        ],
+        "name": "twisted.internet.defer",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/internet/defer.py"
+    },
+    "twisted.internet.endpoints": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.http2.agent",
+            "twisted.web.client"
+        ],
+        "imports": [
+            "OpenSSL",
+            "OpenSSL.SSL",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.error",
+            "twisted.internet.interfaces",
+            "twisted.internet.protocol",
+            "twisted.internet.ssl",
+            "twisted.internet.task",
+            "twisted.internet.threads",
+            "twisted.protocols",
+            "twisted.python",
+            "twisted.python.failure",
+            "twisted.python.log"
+        ],
+        "name": "twisted.internet.endpoints",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/internet/endpoints.py"
+    },
+    "twisted.internet.error": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.http2.protocol",
+            "scrapy.core.http2.stream",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.utils.reactor",
+            "scrapy.utils.testproc",
+            "twisted.internet._sslverify",
+            "twisted.internet.base",
+            "twisted.internet.endpoints",
+            "twisted.internet.protocol",
+            "twisted.internet.task",
+            "twisted.internet.tcp",
+            "twisted.mail.smtp",
+            "twisted.protocols.ftp",
+            "twisted.protocols.policies",
+            "twisted.web.server"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.python"
+        ],
+        "name": "twisted.internet.error",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/internet/error.py"
+    },
+    "twisted.internet.interfaces": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.downloader.handlers.http10",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.http2.protocol",
+            "scrapy.resolver",
+            "twisted.conch.insults.insults",
+            "twisted.conch.telnet",
+            "twisted.internet._sslverify",
+            "twisted.internet.asyncioreactor",
+            "twisted.internet.base",
+            "twisted.internet.defer",
+            "twisted.internet.endpoints",
+            "twisted.internet.protocol",
+            "twisted.internet.ssl",
+            "twisted.internet.task",
+            "twisted.internet.tcp",
+            "twisted.internet.threads",
+            "twisted.mail.smtp",
+            "twisted.protocols.ftp",
+            "twisted.protocols.policies",
+            "twisted.web.client",
+            "twisted.web.http",
+            "twisted.web.iweb",
+            "twisted.web.server",
+            "twisted.web.static"
+        ],
+        "imports": [
+            "OpenSSL",
+            "OpenSSL.SSL",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.protocol",
+            "twisted.internet.ssl",
+            "twisted.protocols",
+            "twisted.python",
+            "twisted.python.failure"
+        ],
+        "name": "twisted.internet.interfaces",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/internet/interfaces.py"
+    },
+    "twisted.internet.protocol": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.downloader.handlers.ftp",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.webclient",
+            "scrapy.core.http2.protocol",
+            "scrapy.extensions.telnet",
+            "scrapy.utils.reactor",
+            "scrapy.utils.testproc",
+            "twisted.conch.insults.insults",
+            "twisted.conch.telnet",
+            "twisted.internet.base",
+            "twisted.internet.endpoints",
+            "twisted.internet.interfaces",
+            "twisted.internet.tcp",
+            "twisted.mail.smtp",
+            "twisted.protocols.ftp",
+            "twisted.protocols.policies",
+            "twisted.web.client",
+            "twisted.web.http"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.error",
+            "twisted.internet.interfaces",
+            "twisted.internet.reactor",
+            "twisted.python",
+            "twisted.python.failure",
+            "twisted.python.log"
+        ],
+        "name": "twisted.internet.protocol",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/internet/protocol.py"
+    },
+    "twisted.internet.reactor": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.downloader",
+            "scrapy.core.downloader.handlers.ftp",
+            "scrapy.core.downloader.handlers.http10",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.downloader.webclient",
+            "scrapy.crawler",
+            "scrapy.extensions.closespider",
+            "scrapy.mail",
+            "scrapy.shell",
+            "scrapy.utils.benchserver",
+            "scrapy.utils.defer",
+            "scrapy.utils.log",
+            "scrapy.utils.reactor",
+            "scrapy.utils.test",
+            "scrapy.utils.testproc",
+            "scrapy.utils.testsite",
+            "twisted.internet.defer",
+            "twisted.internet.protocol",
+            "twisted.internet.task",
+            "twisted.internet.threads",
+            "twisted.mail.smtp",
+            "twisted.protocols.ftp",
+            "twisted.protocols.policies",
+            "twisted.web.client",
+            "twisted.web.http"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.internet"
+        ],
+        "name": "twisted.internet.reactor",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/internet/reactor.py"
+    },
+    "twisted.internet.ssl": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.tls",
+            "scrapy.core.http2.protocol",
+            "scrapy.http.response",
+            "scrapy.mail",
+            "twisted.internet.endpoints",
+            "twisted.internet.interfaces",
+            "twisted.mail.smtp",
+            "twisted.web.client"
+        ],
+        "imports": [
+            "OpenSSL",
+            "OpenSSL.SSL",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet._sslverify",
+            "twisted.internet.interfaces",
+            "twisted.internet.tcp"
+        ],
+        "name": "twisted.internet.ssl",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/internet/ssl.py"
+    },
+    "twisted.internet.task": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.downloader",
+            "scrapy.core.engine",
+            "scrapy.extensions.closespider",
+            "scrapy.extensions.logstats",
+            "scrapy.extensions.memusage",
+            "scrapy.extensions.periodic_log",
+            "scrapy.utils.defer",
+            "twisted.internet.endpoints",
+            "twisted.internet.tcp",
+            "twisted.web.client"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.base",
+            "twisted.internet.defer",
+            "twisted.internet.error",
+            "twisted.internet.interfaces",
+            "twisted.internet.reactor",
+            "twisted.python",
+            "twisted.python.failure",
+            "twisted.python.log"
+        ],
+        "name": "twisted.internet.task",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/internet/task.py"
+    },
+    "twisted.internet.tcp": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.extensions.telnet",
+            "scrapy.utils.reactor",
+            "twisted.internet.base",
+            "twisted.internet.ssl"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.base",
+            "twisted.internet.error",
+            "twisted.internet.interfaces",
+            "twisted.internet.protocol",
+            "twisted.internet.task",
+            "twisted.python",
+            "twisted.python.failure",
+            "twisted.python.log",
+            "twisted.python.versions",
+            "typing_extensions"
+        ],
+        "name": "twisted.internet.tcp",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/internet/tcp.py"
+    },
+    "twisted.internet.threads": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.extensions.feedexport",
+            "scrapy.pipelines.files",
+            "scrapy.shell",
+            "scrapy.utils.decorators",
+            "twisted.internet.base",
+            "twisted.internet.endpoints"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.interfaces",
+            "twisted.internet.reactor",
+            "twisted.python",
+            "twisted.python.failure",
+            "typing_extensions"
+        ],
+        "name": "twisted.internet.threads",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/internet/threads.py"
+    },
+    "twisted.mail": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.mail",
+            "twisted.mail.smtp"
+        ],
+        "name": "twisted.mail",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/mail/__init__.py"
+    },
+    "twisted.mail.smtp": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.mail"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.error",
+            "twisted.internet.interfaces",
+            "twisted.internet.protocol",
+            "twisted.internet.reactor",
+            "twisted.internet.ssl",
+            "twisted.mail",
+            "twisted.protocols",
+            "twisted.protocols.policies",
+            "twisted.python",
+            "twisted.python.log"
+        ],
+        "name": "twisted.mail.smtp",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/mail/smtp.py"
+    },
+    "twisted.protocols": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.downloader.handlers.ftp",
+            "scrapy.core.http2.protocol",
+            "twisted.conch.telnet",
+            "twisted.internet.endpoints",
+            "twisted.internet.interfaces",
+            "twisted.mail.smtp",
+            "twisted.protocols.ftp",
+            "twisted.web.http"
+        ],
+        "name": "twisted.protocols",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/protocols/__init__.py"
+    },
+    "twisted.protocols.ftp": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.downloader.handlers.ftp"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.error",
+            "twisted.internet.interfaces",
+            "twisted.internet.protocol",
+            "twisted.internet.reactor",
+            "twisted.protocols",
+            "twisted.protocols.policies",
+            "twisted.python",
+            "twisted.python.failure",
+            "twisted.python.log"
+        ],
+        "name": "twisted.protocols.ftp",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/protocols/ftp.py"
+    },
+    "twisted.protocols.policies": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.http2.protocol",
+            "twisted.mail.smtp",
+            "twisted.protocols.ftp",
+            "twisted.web.http"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.error",
+            "twisted.internet.interfaces",
+            "twisted.internet.protocol",
+            "twisted.internet.reactor",
+            "twisted.python",
+            "twisted.python.log"
+        ],
+        "name": "twisted.protocols.policies",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/protocols/policies.py"
+    },
+    "twisted.python": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.commands",
+            "scrapy.commands.crawl",
+            "scrapy.commands.parse",
+            "scrapy.contracts",
+            "scrapy.core.downloader.handlers.ftp",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.middleware",
+            "scrapy.core.engine",
+            "scrapy.core.http2.agent",
+            "scrapy.core.http2.protocol",
+            "scrapy.core.http2.stream",
+            "scrapy.core.scraper",
+            "scrapy.core.spidermw",
+            "scrapy.downloadermiddlewares.robotstxt",
+            "scrapy.extensions.closespider",
+            "scrapy.extensions.feedexport",
+            "scrapy.http.request",
+            "scrapy.http.response",
+            "scrapy.http.response.text",
+            "scrapy.logformatter",
+            "scrapy.mail",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.media",
+            "scrapy.shell",
+            "scrapy.spiders.crawl",
+            "scrapy.utils.defer",
+            "scrapy.utils.log",
+            "scrapy.utils.signal",
+            "scrapy.utils.testproc",
+            "twisted.conch.insults.insults",
+            "twisted.conch.manhole",
+            "twisted.conch.telnet",
+            "twisted.internet._sslverify",
+            "twisted.internet.asyncioreactor",
+            "twisted.internet.base",
+            "twisted.internet.defer",
+            "twisted.internet.endpoints",
+            "twisted.internet.error",
+            "twisted.internet.interfaces",
+            "twisted.internet.protocol",
+            "twisted.internet.task",
+            "twisted.internet.tcp",
+            "twisted.internet.threads",
+            "twisted.mail.smtp",
+            "twisted.protocols.ftp",
+            "twisted.protocols.policies",
+            "twisted.python.failure",
+            "twisted.python.log",
+            "twisted.web.client",
+            "twisted.web.error",
+            "twisted.web.http",
+            "twisted.web.http_headers",
+            "twisted.web.resource",
+            "twisted.web.server",
+            "twisted.web.static"
+        ],
+        "imports": [
+            "twisted.python.versions"
+        ],
+        "name": "twisted.python",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/python/__init__.py"
+    },
+    "twisted.python.failure": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.commands",
+            "scrapy.commands.crawl",
+            "scrapy.commands.parse",
+            "scrapy.contracts",
+            "scrapy.core.downloader.handlers.ftp",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.middleware",
+            "scrapy.core.engine",
+            "scrapy.core.http2.agent",
+            "scrapy.core.http2.protocol",
+            "scrapy.core.http2.stream",
+            "scrapy.core.scraper",
+            "scrapy.core.spidermw",
+            "scrapy.downloadermiddlewares.robotstxt",
+            "scrapy.extensions.closespider",
+            "scrapy.extensions.feedexport",
+            "scrapy.http.request",
+            "scrapy.http.response",
+            "scrapy.http.response.text",
+            "scrapy.logformatter",
+            "scrapy.mail",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.media",
+            "scrapy.spiders.crawl",
+            "scrapy.utils.defer",
+            "scrapy.utils.log",
+            "scrapy.utils.signal",
+            "scrapy.utils.testproc",
+            "twisted.internet._sslverify",
+            "twisted.internet.base",
+            "twisted.internet.defer",
+            "twisted.internet.endpoints",
+            "twisted.internet.interfaces",
+            "twisted.internet.protocol",
+            "twisted.internet.task",
+            "twisted.internet.tcp",
+            "twisted.internet.threads",
+            "twisted.protocols.ftp",
+            "twisted.python.log",
+            "twisted.web.client",
+            "twisted.web.http",
+            "twisted.web.server"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.python",
+            "twisted.python.log"
+        ],
+        "name": "twisted.python.failure",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/python/failure.py"
+    },
+    "twisted.python.log": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.utils.log",
+            "twisted.internet.asyncioreactor",
+            "twisted.internet.base",
+            "twisted.internet.endpoints",
+            "twisted.internet.protocol",
+            "twisted.internet.task",
+            "twisted.internet.tcp",
+            "twisted.mail.smtp",
+            "twisted.protocols.ftp",
+            "twisted.protocols.policies",
+            "twisted.python.failure",
+            "twisted.web.http",
+            "twisted.web.static"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.python",
+            "twisted.python.failure",
+            "twisted.python.threadable"
+        ],
+        "name": "twisted.python.log",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/python/log.py"
+    },
+    "twisted.python.threadable": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.shell",
+            "twisted.internet.base",
+            "twisted.python.log"
+        ],
+        "name": "twisted.python.threadable",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/python/threadable.py"
+    },
+    "twisted.python.versions": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.pipelines.media",
+            "twisted.internet.tcp",
+            "twisted.python"
+        ],
+        "name": "twisted.python.versions",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/python/versions.py"
+    },
+    "twisted.trial": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.utils.test",
+            "twisted.trial.unittest"
+        ],
+        "name": "twisted.trial",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/trial/__init__.py"
+    },
+    "twisted.trial.unittest": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.utils.test"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.trial"
+        ],
+        "name": "twisted.trial.unittest",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/trial/unittest.py"
+    },
+    "twisted.web": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.downloader.webclient",
+            "scrapy.core.http2.agent",
+            "scrapy.core.http2.protocol",
+            "scrapy.core.http2.stream",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.downloadermiddlewares.stats",
+            "scrapy.utils.benchserver",
+            "scrapy.utils.response",
+            "scrapy.utils.test",
+            "scrapy.utils.testsite",
+            "twisted.web.client",
+            "twisted.web.error",
+            "twisted.web.http",
+            "twisted.web.http_headers",
+            "twisted.web.iweb",
+            "twisted.web.resource",
+            "twisted.web.server",
+            "twisted.web.static"
+        ],
+        "name": "twisted.web",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/web/__init__.py"
+    },
+    "twisted.web.client": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.http2.agent",
+            "scrapy.core.http2.protocol",
+            "scrapy.core.http2.stream",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.utils.test"
+        ],
+        "imports": [
+            "OpenSSL",
+            "OpenSSL.SSL",
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.endpoints",
+            "twisted.internet.interfaces",
+            "twisted.internet.protocol",
+            "twisted.internet.reactor",
+            "twisted.internet.ssl",
+            "twisted.internet.task",
+            "twisted.python",
+            "twisted.python.failure",
+            "twisted.web",
+            "twisted.web.error",
+            "twisted.web.http",
+            "twisted.web.http_headers",
+            "twisted.web.iweb"
+        ],
+        "name": "twisted.web.client",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/web/client.py"
+    },
+    "twisted.web.error": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.http2.agent",
+            "twisted.web.client",
+            "twisted.web.resource",
+            "twisted.web.server"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.python",
+            "twisted.web"
+        ],
+        "name": "twisted.web.error",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/web/error.py"
+    },
+    "twisted.web.http": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.webclient",
+            "scrapy.downloadermiddlewares.stats",
+            "scrapy.utils.response",
+            "twisted.web.client",
+            "twisted.web.server",
+            "twisted.web.static"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.interfaces",
+            "twisted.internet.protocol",
+            "twisted.internet.reactor",
+            "twisted.protocols",
+            "twisted.protocols.policies",
+            "twisted.python",
+            "twisted.python.failure",
+            "twisted.python.log",
+            "twisted.web",
+            "twisted.web.http_headers",
+            "twisted.web.iweb"
+        ],
+        "name": "twisted.web.http",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/web/http.py"
+    },
+    "twisted.web.http_headers": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.downloader.handlers.http11",
+            "twisted.web.client",
+            "twisted.web.http",
+            "twisted.web.iweb"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.python",
+            "twisted.web"
+        ],
+        "name": "twisted.web.http_headers",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/web/http_headers.py"
+    },
+    "twisted.web.iweb": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "twisted.web.client",
+            "twisted.web.http",
+            "twisted.web.server"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.defer",
+            "twisted.internet.interfaces",
+            "twisted.web",
+            "twisted.web.http_headers"
+        ],
+        "name": "twisted.web.iweb",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/web/iweb.py"
+    },
+    "twisted.web.resource": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.utils.benchserver",
+            "scrapy.utils.testsite",
+            "twisted.web.server",
+            "twisted.web.static"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.python",
+            "twisted.web",
+            "twisted.web.error"
+        ],
+        "name": "twisted.web.resource",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/web/resource.py"
+    },
+    "twisted.web.server": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.utils.benchserver",
+            "scrapy.utils.testsite",
+            "twisted.web.static"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.error",
+            "twisted.internet.interfaces",
+            "twisted.python",
+            "twisted.python.failure",
+            "twisted.web",
+            "twisted.web.error",
+            "twisted.web.http",
+            "twisted.web.iweb",
+            "twisted.web.resource",
+            "twisted.web.util"
+        ],
+        "name": "twisted.web.server",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/web/server.py"
+    },
+    "twisted.web.static": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.utils.testsite"
+        ],
+        "imports": [
+            "twisted",
+            "twisted.internet",
+            "twisted.internet.interfaces",
+            "twisted.python",
+            "twisted.python.log",
+            "twisted.web",
+            "twisted.web.http",
+            "twisted.web.resource",
+            "twisted.web.server",
+            "twisted.web.util",
+            "typing_extensions"
+        ],
+        "name": "twisted.web.static",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/web/static.py"
+    },
+    "twisted.web.util": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.utils.testsite",
+            "twisted.web.server",
+            "twisted.web.static"
+        ],
+        "name": "twisted.web.util",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/twisted/web/util.py"
+    },
+    "typing_extensions": {
+        "bacon": 2,
+        "imported_by": [
+            "OpenSSL.crypto",
+            "itemloaders",
+            "parsel.csstranslator",
+            "scrapy.cmdline",
+            "scrapy.core.downloader.contextfactory",
+            "scrapy.core.downloader.handlers.ftp",
+            "scrapy.core.downloader.handlers.http10",
+            "scrapy.core.downloader.handlers.http11",
+            "scrapy.core.downloader.handlers.http2",
+            "scrapy.core.downloader.handlers.s3",
+            "scrapy.core.scheduler",
+            "scrapy.downloadermiddlewares.ajaxcrawl",
+            "scrapy.downloadermiddlewares.cookies",
+            "scrapy.downloadermiddlewares.defaultheaders",
+            "scrapy.downloadermiddlewares.downloadtimeout",
+            "scrapy.downloadermiddlewares.httpauth",
+            "scrapy.downloadermiddlewares.httpcache",
+            "scrapy.downloadermiddlewares.httpcompression",
+            "scrapy.downloadermiddlewares.httpproxy",
+            "scrapy.downloadermiddlewares.offsite",
+            "scrapy.downloadermiddlewares.redirect",
+            "scrapy.downloadermiddlewares.retry",
+            "scrapy.downloadermiddlewares.robotstxt",
+            "scrapy.downloadermiddlewares.stats",
+            "scrapy.downloadermiddlewares.useragent",
+            "scrapy.dupefilters",
+            "scrapy.extensions.closespider",
+            "scrapy.extensions.corestats",
+            "scrapy.extensions.debug",
+            "scrapy.extensions.feedexport",
+            "scrapy.extensions.httpcache",
+            "scrapy.extensions.logstats",
+            "scrapy.extensions.memdebug",
+            "scrapy.extensions.memusage",
+            "scrapy.extensions.periodic_log",
+            "scrapy.extensions.spiderstate",
+            "scrapy.extensions.statsmailer",
+            "scrapy.extensions.telnet",
+            "scrapy.extensions.throttle",
+            "scrapy.http.cookies",
+            "scrapy.http.headers",
+            "scrapy.http.request",
+            "scrapy.http.request.form",
+            "scrapy.http.request.json_request",
+            "scrapy.http.response",
+            "scrapy.item",
+            "scrapy.logformatter",
+            "scrapy.mail",
+            "scrapy.middleware",
+            "scrapy.pipelines.files",
+            "scrapy.pipelines.images",
+            "scrapy.pipelines.media",
+            "scrapy.pqueues",
+            "scrapy.resolver",
+            "scrapy.robotstxt",
+            "scrapy.settings",
+            "scrapy.spiderloader",
+            "scrapy.spidermiddlewares.depth",
+            "scrapy.spidermiddlewares.httperror",
+            "scrapy.spidermiddlewares.offsite",
+            "scrapy.spidermiddlewares.referer",
+            "scrapy.spidermiddlewares.urllength",
+            "scrapy.spiders",
+            "scrapy.spiders.crawl",
+            "scrapy.spiders.sitemap",
+            "scrapy.squeues",
+            "scrapy.utils.datatypes",
+            "scrapy.utils.decorators",
+            "scrapy.utils.defer",
+            "scrapy.utils.python",
+            "scrapy.utils.reactor",
+            "scrapy.utils.request",
+            "scrapy.utils.trackref",
+            "twisted.internet.defer",
+            "twisted.internet.tcp",
+            "twisted.internet.threads",
+            "twisted.web.static"
+        ],
+        "name": "typing_extensions",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/typing_extensions.py"
+    },
+    "w3lib": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.commands.fetch",
+            "scrapy.commands.parse",
+            "scrapy.core.downloader.handlers.datauri",
+            "scrapy.core.downloader.handlers.file",
+            "scrapy.downloadermiddlewares.ajaxcrawl",
+            "scrapy.downloadermiddlewares.httpauth",
+            "scrapy.downloadermiddlewares.redirect",
+            "scrapy.extensions.feedexport",
+            "scrapy.extensions.httpcache",
+            "scrapy.http.headers",
+            "scrapy.http.request",
+            "scrapy.http.request.form",
+            "scrapy.http.response.text",
+            "scrapy.linkextractors.lxmlhtml",
+            "scrapy.shell",
+            "scrapy.spidermiddlewares.referer",
+            "scrapy.utils.curl",
+            "scrapy.utils.request",
+            "scrapy.utils.response",
+            "scrapy.utils.url",
+            "w3lib.encoding",
+            "w3lib.html",
+            "w3lib.http"
+        ],
+        "name": "w3lib",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/w3lib/__init__.py"
+    },
+    "w3lib.encoding": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.http.response.text"
+        ],
+        "imports": [
+            "w3lib"
+        ],
+        "name": "w3lib.encoding",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/w3lib/encoding.py"
+    },
+    "w3lib.html": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.downloadermiddlewares.ajaxcrawl",
+            "scrapy.http.request.form",
+            "scrapy.http.response.text",
+            "scrapy.linkextractors.lxmlhtml",
+            "scrapy.utils.response"
+        ],
+        "imports": [
+            "w3lib",
+            "w3lib.url"
+        ],
+        "name": "w3lib.html",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/w3lib/html.py"
+    },
+    "w3lib.http": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.downloadermiddlewares.httpauth",
+            "scrapy.extensions.httpcache",
+            "scrapy.http.headers",
+            "scrapy.utils.curl",
+            "scrapy.utils.request"
+        ],
+        "imports": [
+            "w3lib"
+        ],
+        "name": "w3lib.http",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/w3lib/http.py"
+    },
+    "w3lib.url": {
+        "bacon": 2,
+        "imported_by": [
+            "scrapy.commands.fetch",
+            "scrapy.commands.parse",
+            "scrapy.core.downloader.handlers.datauri",
+            "scrapy.core.downloader.handlers.file",
+            "scrapy.downloadermiddlewares.redirect",
+            "scrapy.extensions.feedexport",
+            "scrapy.http.request",
+            "scrapy.linkextractors.lxmlhtml",
+            "scrapy.shell",
+            "scrapy.spidermiddlewares.referer",
+            "scrapy.utils.request",
+            "scrapy.utils.url",
+            "w3lib.html"
+        ],
+        "name": "w3lib.url",
+        "path": "/home/hey_nag/STT/LAB9/scrapy/venv/lib/python3.12/site-packages/w3lib/url.py"
+    }
+}

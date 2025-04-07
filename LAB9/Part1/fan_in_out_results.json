@@ -1,0 +1,970 @@
+{
+    "scrapy.core.http2.agent": {
+        "fan_in": 2,
+        "fan_out": 19
+    },
+    "scrapy.utils.serialize": {
+        "fan_in": 3,
+        "fan_out": 7
+    },
+    "twisted.protocols.policies": {
+        "fan_in": 4,
+        "fan_out": 8
+    },
+    "scrapy.core.downloader.tls": {
+        "fan_in": 2,
+        "fan_out": 11
+    },
+    "scrapy.core.downloader.middleware": {
+        "fan_in": 2,
+        "fan_out": 13
+    },
+    "w3lib.encoding": {
+        "fan_in": 1,
+        "fan_out": 1
+    },
+    "scrapy.http.response.json": {
+        "fan_in": 2,
+        "fan_out": 4
+    },
+    "scrapy.pipelines.files": {
+        "fan_in": 2,
+        "fan_out": 24
+    },
+    "scrapy.signals": {
+        "fan_in": 27,
+        "fan_out": 0
+    },
+    "scrapy.spiders.crawl": {
+        "fan_in": 2,
+        "fan_out": 14
+    },
+    "scrapy.extensions.telnet": {
+        "fan_in": 1,
+        "fan_out": 19
+    },
+    "scrapy.robotstxt": {
+        "fan_in": 2,
+        "fan_out": 6
+    },
+    "itemadapter": {
+        "fan_in": 8,
+        "fan_out": 0
+    },
+    "lxml.html": {
+        "fan_in": 2,
+        "fan_out": 2
+    },
+    "scrapy.downloadermiddlewares.redirect": {
+        "fan_in": 1,
+        "fan_out": 11
+    },
+    "scrapy.link": {
+        "fan_in": 5,
+        "fan_out": 0
+    },
+    "scrapy.core.downloader.handlers.http11": {
+        "fan_in": 2,
+        "fan_out": 32
+    },
+    "scrapy.spidermiddlewares.depth": {
+        "fan_in": 1,
+        "fan_out": 5
+    },
+    "service_identity": {
+        "fan_in": 2,
+        "fan_out": 1
+    },
+    "twisted.web.client": {
+        "fan_in": 8,
+        "fan_out": 18
+    },
+    "scrapy.commands.check": {
+        "fan_in": 1,
+        "fan_out": 6
+    },
+    "scrapy.core.downloader.handlers.http2": {
+        "fan_in": 1,
+        "fan_out": 23
+    },
+    "defusedxml": {
+        "fan_in": 1,
+        "fan_out": 1
+    },
+    "scrapy.selector": {
+        "fan_in": 7,
+        "fan_out": 2
+    },
+    "scrapy.downloadermiddlewares.robotstxt": {
+        "fan_in": 1,
+        "fan_out": 16
+    },
+    "twisted.web.http": {
+        "fan_in": 7,
+        "fan_out": 14
+    },
+    "scrapy.http.response.text": {
+        "fan_in": 6,
+        "fan_out": 16
+    },
+    "scrapy.core.downloader.contextfactory": {
+        "fan_in": 5,
+        "fan_out": 20
+    },
+    "twisted.web.util": {
+        "fan_in": 3,
+        "fan_out": 0
+    },
+    "scrapy.utils.ossignal": {
+        "fan_in": 2,
+        "fan_out": 0
+    },
+    "twisted.internet.reactor": {
+        "fan_in": 26,
+        "fan_out": 2
+    },
+    "scrapy.commands.startproject": {
+        "fan_in": 1,
+        "fan_out": 5
+    },
+    "__main__": {
+        "fan_in": 0,
+        "fan_out": 168
+    },
+    "scrapy.http.cookies": {
+        "fan_in": 2,
+        "fan_out": 6
+    },
+    "scrapy.pipelines": {
+        "fan_in": 4,
+        "fan_out": 9
+    },
+    "scrapy.linkextractors.lxmlhtml": {
+        "fan_in": 2,
+        "fan_out": 17
+    },
+    "scrapy.utils.asyncgen": {
+        "fan_in": 5,
+        "fan_out": 0
+    },
+    "scrapy.commands.settings": {
+        "fan_in": 1,
+        "fan_out": 3
+    },
+    "scrapy.utils.sitemap": {
+        "fan_in": 2,
+        "fan_out": 2
+    },
+    "twisted.trial.unittest": {
+        "fan_in": 1,
+        "fan_out": 2
+    },
+    "lxml.etree": {
+        "fan_in": 5,
+        "fan_out": 0
+    },
+    "scrapy.http.response": {
+        "fan_in": 8,
+        "fan_out": 15
+    },
+    "scrapy.core.downloader.handlers.file": {
+        "fan_in": 1,
+        "fan_out": 7
+    },
+    "twisted": {
+        "fan_in": 91,
+        "fan_out": 0
+    },
+    "twisted.mail.smtp": {
+        "fan_in": 1,
+        "fan_out": 13
+    },
+    "scrapy.utils.project": {
+        "fan_in": 3,
+        "fan_out": 5
+    },
+    "pydispatch.dispatcher": {
+        "fan_in": 2,
+        "fan_out": 2
+    },
+    "twisted.conch.telnet": {
+        "fan_in": 1,
+        "fan_out": 7
+    },
+    "twisted.mail": {
+        "fan_in": 2,
+        "fan_out": 0
+    },
+    "scrapy.contracts": {
+        "fan_in": 3,
+        "fan_out": 8
+    },
+    "scrapy.core": {
+        "fan_in": 17,
+        "fan_out": 0
+    },
+    "scrapy.downloadermiddlewares.httpcompression": {
+        "fan_in": 1,
+        "fan_out": 11
+    },
+    "scrapy.core.scheduler": {
+        "fan_in": 2,
+        "fan_out": 17
+    },
+    "twisted.internet._sslverify": {
+        "fan_in": 3,
+        "fan_out": 12
+    },
+    "scrapy.extensions": {
+        "fan_in": 2,
+        "fan_out": 0
+    },
+    "scrapy.commands.bench": {
+        "fan_in": 1,
+        "fan_out": 6
+    },
+    "lxml": {
+        "fan_in": 6,
+        "fan_out": 0
+    },
+    "twisted.web.iweb": {
+        "fan_in": 6,
+        "fan_out": 6
+    },
+    "OpenSSL._util": {
+        "fan_in": 4,
+        "fan_out": 0
+    },
+    "scrapy.exporters": {
+        "fan_in": 2,
+        "fan_out": 6
+    },
+    "scrapy.selector.unified": {
+        "fan_in": 2,
+        "fan_out": 7
+    },
+    "pydispatch": {
+        "fan_in": 3,
+        "fan_out": 0
+    },
+    "scrapy.spidermiddlewares": {
+        "fan_in": 1,
+        "fan_out": 0
+    },
+    "scrapy.pipelines.media": {
+        "fan_in": 3,
+        "fan_out": 20
+    },
+    "scrapy.utils.template": {
+        "fan_in": 3,
+        "fan_out": 0
+    },
+    "twisted.internet.task": {
+        "fan_in": 10,
+        "fan_out": 10
+    },
+    "twisted.internet.protocol": {
+        "fan_in": 18,
+        "fan_out": 9
+    },
+    "twisted.trial": {
+        "fan_in": 2,
+        "fan_out": 0
+    },
+    "scrapy.downloadermiddlewares.cookies": {
+        "fan_in": 1,
+        "fan_out": 11
+    },
+    "scrapy.middleware": {
+        "fan_in": 5,
+        "fan_out": 11
+    },
+    "scrapy.utils.benchserver": {
+        "fan_in": 1,
+        "fan_out": 6
+    },
+    "scrapy.http.response.xml": {
+        "fan_in": 2,
+        "fan_out": 4
+    },
+    "scrapy.utils.misc": {
+        "fan_in": 31,
+        "fan_out": 6
+    },
+    "scrapy.utils.decorators": {
+        "fan_in": 4,
+        "fan_out": 7
+    },
+    "scrapy.utils.response": {
+        "fan_in": 8,
+        "fan_out": 9
+    },
+    "twisted.web.error": {
+        "fan_in": 4,
+        "fan_out": 3
+    },
+    "scrapy.commands.crawl": {
+        "fan_in": 1,
+        "fan_out": 6
+    },
+    "OpenSSL.version": {
+        "fan_in": 2,
+        "fan_out": 0
+    },
+    "scrapy.core.http2.stream": {
+        "fan_in": 2,
+        "fan_out": 17
+    },
+    "scrapy.spiders.feed": {
+        "fan_in": 2,
+        "fan_out": 8
+    },
+    "twisted.conch.manhole": {
+        "fan_in": 1,
+        "fan_out": 5
+    },
+    "scrapy.mail": {
+        "fan_in": 3,
+        "fan_out": 17
+    },
+    "packaging.version": {
+        "fan_in": 1,
+        "fan_out": 0
+    },
+    "scrapy.extensions.closespider": {
+        "fan_in": 1,
+        "fan_out": 12
+    },
+    "scrapy.http.request.form": {
+        "fan_in": 2,
+        "fan_out": 14
+    },
+    "scrapy.squeues": {
+        "fan_in": 1,
+        "fan_out": 7
+    },
+    "scrapy.spidermiddlewares.httperror": {
+        "fan_in": 1,
+        "fan_out": 6
+    },
+    "scrapy.commands.version": {
+        "fan_in": 1,
+        "fan_out": 4
+    },
+    "scrapy.extensions.statsmailer": {
+        "fan_in": 1,
+        "fan_out": 10
+    },
+    "scrapy.core.downloader": {
+        "fan_in": 11,
+        "fan_out": 19
+    },
+    "scrapy.downloadermiddlewares.ajaxcrawl": {
+        "fan_in": 1,
+        "fan_out": 10
+    },
+    "itemloaders": {
+        "fan_in": 1,
+        "fan_out": 3
+    },
+    "scrapy.responsetypes": {
+        "fan_in": 9,
+        "fan_out": 5
+    },
+    "twisted.protocols": {
+        "fan_in": 8,
+        "fan_out": 0
+    },
+    "scrapy.utils.ftp": {
+        "fan_in": 3,
+        "fan_out": 0
+    },
+    "scrapy.extensions.logstats": {
+        "fan_in": 1,
+        "fan_out": 9
+    },
+    "scrapy.utils.testproc": {
+        "fan_in": 1,
+        "fan_out": 10
+    },
+    "scrapy.extensions.memdebug": {
+        "fan_in": 1,
+        "fan_out": 8
+    },
+    "service_identity.exceptions": {
+        "fan_in": 2,
+        "fan_out": 0
+    },
+    "scrapy.commands.view": {
+        "fan_in": 1,
+        "fan_out": 6
+    },
+    "scrapy.core.http2.protocol": {
+        "fan_in": 3,
+        "fan_out": 20
+    },
+    "twisted.python": {
+        "fan_in": 55,
+        "fan_out": 1
+    },
+    "scrapy.utils.reactor": {
+        "fan_in": 7,
+        "fan_out": 12
+    },
+    "scrapy.utils.request": {
+        "fan_in": 9,
+        "fan_out": 11
+    },
+    "scrapy.extensions.memusage": {
+        "fan_in": 1,
+        "fan_out": 11
+    },
+    "twisted.internet.endpoints": {
+        "fan_in": 3,
+        "fan_out": 15
+    },
+    "w3lib": {
+        "fan_in": 23,
+        "fan_out": 0
+    },
+    "scrapy.item": {
+        "fan_in": 5,
+        "fan_out": 4
+    },
+    "w3lib.url": {
+        "fan_in": 13,
+        "fan_out": 0
+    },
+    "twisted.conch": {
+        "fan_in": 2,
+        "fan_out": 0
+    },
+    "scrapy.extensions.feedexport": {
+        "fan_in": 1,
+        "fan_out": 24
+    },
+    "scrapy.extensions.debug": {
+        "fan_in": 1,
+        "fan_out": 6
+    },
+    "scrapy.commands.fetch": {
+        "fan_in": 2,
+        "fan_out": 9
+    },
+    "scrapy.spidermiddlewares.referer": {
+        "fan_in": 1,
+        "fan_out": 13
+    },
+    "scrapy.utils._compression": {
+        "fan_in": 4,
+        "fan_out": 2
+    },
+    "scrapy.linkextractors": {
+        "fan_in": 4,
+        "fan_out": 2
+    },
+    "scrapy.extensions.throttle": {
+        "fan_in": 1,
+        "fan_out": 8
+    },
+    "typing_extensions": {
+        "fan_in": 77,
+        "fan_out": 0
+    },
+    "scrapy.spiders.sitemap": {
+        "fan_in": 2,
+        "fan_out": 10
+    },
+    "scrapy.utils.httpobj": {
+        "fan_in": 18,
+        "fan_out": 2
+    },
+    "scrapy.settings.default_settings": {
+        "fan_in": 3,
+        "fan_out": 0
+    },
+    "scrapy.utils.boto": {
+        "fan_in": 4,
+        "fan_out": 0
+    },
+    "scrapy.__main__": {
+        "fan_in": 1,
+        "fan_out": 2
+    },
+    "pydispatch.robustapply": {
+        "fan_in": 2,
+        "fan_out": 0
+    },
+    "OpenSSL.crypto": {
+        "fan_in": 4,
+        "fan_out": 3
+    },
+    "scrapy.contracts.default": {
+        "fan_in": 1,
+        "fan_out": 5
+    },
+    "OpenSSL": {
+        "fan_in": 10,
+        "fan_out": 3
+    },
+    "scrapy.crawler": {
+        "fan_in": 66,
+        "fan_out": 22
+    },
+    "scrapy.utils.gz": {
+        "fan_in": 3,
+        "fan_out": 3
+    },
+    "scrapy.utils.test": {
+        "fan_in": 2,
+        "fan_out": 16
+    },
+    "queuelib": {
+        "fan_in": 2,
+        "fan_out": 1
+    },
+    "tldextract": {
+        "fan_in": 1,
+        "fan_out": 0
+    },
+    "twisted.internet.defer": {
+        "fan_in": 54,
+        "fan_out": 7
+    },
+    "scrapy.core.downloader.handlers.datauri": {
+        "fan_in": 1,
+        "fan_out": 7
+    },
+    "parsel": {
+        "fan_in": 5,
+        "fan_out": 1
+    },
+    "twisted.web.http_headers": {
+        "fan_in": 4,
+        "fan_out": 3
+    },
+    "twisted.internet.threads": {
+        "fan_in": 6,
+        "fan_out": 8
+    },
+    "scrapy.utils.job": {
+        "fan_in": 4,
+        "fan_out": 2
+    },
+    "scrapy.core.downloader.webclient": {
+        "fan_in": 2,
+        "fan_out": 14
+    },
+    "twisted.internet": {
+        "fan_in": 74,
+        "fan_out": 0
+    },
+    "twisted.internet.interfaces": {
+        "fan_in": 24,
+        "fan_out": 10
+    },
+    "scrapy.commands": {
+        "fan_in": 16,
+        "fan_out": 8
+    },
+    "scrapy.downloadermiddlewares.defaultheaders": {
+        "fan_in": 1,
+        "fan_out": 6
+    },
+    "scrapy.http.request": {
+        "fan_in": 21,
+        "fan_out": 13
+    },
+    "scrapy.utils.signal": {
+        "fan_in": 2,
+        "fan_out": 13
+    },
+    "scrapy.core.spidermw": {
+        "fan_in": 2,
+        "fan_out": 15
+    },
+    "scrapy.extensions.periodic_log": {
+        "fan_in": 1,
+        "fan_out": 11
+    },
+    "twisted.web": {
+        "fan_in": 21,
+        "fan_out": 0
+    },
+    "scrapy.downloadermiddlewares.retry": {
+        "fan_in": 1,
+        "fan_out": 12
+    },
+    "twisted.web.static": {
+        "fan_in": 1,
+        "fan_out": 11
+    },
+    "scrapy.spiders.init": {
+        "fan_in": 1,
+        "fan_out": 6
+    },
+    "scrapy.http.request.rpc": {
+        "fan_in": 2,
+        "fan_out": 7
+    },
+    "scrapy.downloadermiddlewares.downloadtimeout": {
+        "fan_in": 1,
+        "fan_out": 5
+    },
+    "scrapy.statscollectors": {
+        "fan_in": 14,
+        "fan_out": 2
+    },
+    "twisted.python.log": {
+        "fan_in": 13,
+        "fan_out": 4
+    },
+    "scrapy.signalmanager": {
+        "fan_in": 5,
+        "fan_out": 8
+    },
+    "twisted.internet.ssl": {
+        "fan_in": 10,
+        "fan_out": 7
+    },
+    "scrapy.spidermiddlewares.offsite": {
+        "fan_in": 1,
+        "fan_out": 9
+    },
+    "scrapy.core.downloader.handlers.s3": {
+        "fan_in": 1,
+        "fan_out": 17
+    },
+    "scrapy.utils.iterators": {
+        "fan_in": 2,
+        "fan_out": 8
+    },
+    "twisted.python.versions": {
+        "fan_in": 3,
+        "fan_out": 0
+    },
+    "scrapy.commands.list": {
+        "fan_in": 1,
+        "fan_out": 2
+    },
+    "scrapy.pqueues": {
+        "fan_in": 2,
+        "fan_out": 7
+    },
+    "scrapy.downloadermiddlewares.httpauth": {
+        "fan_in": 1,
+        "fan_out": 9
+    },
+    "scrapy.utils": {
+        "fan_in": 106,
+        "fan_out": 0
+    },
+    "scrapy.commands.parse": {
+        "fan_in": 1,
+        "fan_out": 21
+    },
+    "w3lib.html": {
+        "fan_in": 5,
+        "fan_out": 2
+    },
+    "scrapy.commands.shell": {
+        "fan_in": 1,
+        "fan_out": 7
+    },
+    "protego": {
+        "fan_in": 1,
+        "fan_out": 0
+    },
+    "scrapy.http.request.json_request": {
+        "fan_in": 2,
+        "fan_out": 4
+    },
+    "scrapy.core.downloader.handlers": {
+        "fan_in": 4,
+        "fan_out": 12
+    },
+    "scrapy.core.http2": {
+        "fan_in": 5,
+        "fan_out": 0
+    },
+    "scrapy.spiders": {
+        "fan_in": 18,
+        "fan_out": 17
+    },
+    "scrapy.utils.spider": {
+        "fan_in": 12,
+        "fan_out": 9
+    },
+    "OpenSSL.SSL": {
+        "fan_in": 9,
+        "fan_out": 3
+    },
+    "twisted.internet.tcp": {
+        "fan_in": 4,
+        "fan_out": 12
+    },
+    "scrapy.downloadermiddlewares.stats": {
+        "fan_in": 1,
+        "fan_out": 12
+    },
+    "twisted.conch.insults": {
+        "fan_in": 1,
+        "fan_out": 0
+    },
+    "scrapy.commands.runspider": {
+        "fan_in": 1,
+        "fan_out": 5
+    },
+    "scrapy.utils.ssl": {
+        "fan_in": 3,
+        "fan_out": 8
+    },
+    "twisted.conch.insults.insults": {
+        "fan_in": 1,
+        "fan_out": 6
+    },
+    "twisted.protocols.ftp": {
+        "fan_in": 1,
+        "fan_out": 12
+    },
+    "w3lib.http": {
+        "fan_in": 5,
+        "fan_out": 1
+    },
+    "scrapy.utils.versions": {
+        "fan_in": 3,
+        "fan_out": 8
+    },
+    "twisted.web.server": {
+        "fan_in": 3,
+        "fan_out": 12
+    },
+    "scrapy.utils.console": {
+        "fan_in": 2,
+        "fan_out": 0
+    },
+    "twisted.internet.asyncioreactor": {
+        "fan_in": 2,
+        "fan_out": 5
+    },
+    "twisted.python.failure": {
+        "fan_in": 42,
+        "fan_out": 3
+    },
+    "scrapy.core.downloader.handlers.ftp": {
+        "fan_in": 1,
+        "fan_out": 18
+    },
+    "scrapy.utils.display": {
+        "fan_in": 2,
+        "fan_out": 2
+    },
+    "twisted.internet.base": {
+        "fan_in": 7,
+        "fan_out": 12
+    },
+    "scrapy.exceptions": {
+        "fan_in": 76,
+        "fan_out": 0
+    },
+    "scrapy.utils.defer": {
+        "fan_in": 12,
+        "fan_out": 12
+    },
+    "scrapy.utils.deprecate": {
+        "fan_in": 5,
+        "fan_out": 2
+    },
+    "scrapy.utils.log": {
+        "fan_in": 11,
+        "fan_out": 13
+    },
+    "scrapy.resolver": {
+        "fan_in": 2,
+        "fan_out": 10
+    },
+    "scrapy.settings": {
+        "fan_in": 42,
+        "fan_out": 5
+    },
+    "defusedxml.xmlrpc": {
+        "fan_in": 2,
+        "fan_out": 0
+    },
+    "scrapy.cmdline": {
+        "fan_in": 2,
+        "fan_out": 10
+    },
+    "scrapy.utils.python": {
+        "fan_in": 39,
+        "fan_out": 5
+    },
+    "scrapy.dupefilters": {
+        "fan_in": 2,
+        "fan_out": 14
+    },
+    "scrapy": {
+        "fan_in": 146,
+        "fan_out": 6
+    },
+    "scrapy.extension": {
+        "fan_in": 2,
+        "fan_out": 5
+    },
+    "scrapy.downloadermiddlewares.offsite": {
+        "fan_in": 1,
+        "fan_out": 8
+    },
+    "scrapy.http": {
+        "fan_in": 79,
+        "fan_out": 11
+    },
+    "scrapy.addons": {
+        "fan_in": 2,
+        "fan_out": 7
+    },
+    "scrapy.core.engine": {
+        "fan_in": 3,
+        "fan_out": 23
+    },
+    "scrapy.http.response.html": {
+        "fan_in": 2,
+        "fan_out": 4
+    },
+    "scrapy.spidermiddlewares.urllength": {
+        "fan_in": 1,
+        "fan_out": 6
+    },
+    "scrapy.interfaces": {
+        "fan_in": 3,
+        "fan_out": 0
+    },
+    "scrapy.utils.datatypes": {
+        "fan_in": 8,
+        "fan_out": 5
+    },
+    "scrapy.utils.engine": {
+        "fan_in": 4,
+        "fan_out": 3
+    },
+    "scrapy.extensions.corestats": {
+        "fan_in": 1,
+        "fan_out": 5
+    },
+    "scrapy.extensions.spiderstate": {
+        "fan_in": 1,
+        "fan_out": 7
+    },
+    "twisted.internet.error": {
+        "fan_in": 17,
+        "fan_out": 2
+    },
+    "scrapy.loader": {
+        "fan_in": 1,
+        "fan_out": 5
+    },
+    "scrapy.core.downloader.handlers.http": {
+        "fan_in": 2,
+        "fan_out": 6
+    },
+    "parsel.csstranslator": {
+        "fan_in": 3,
+        "fan_out": 1
+    },
+    "packaging": {
+        "fan_in": 1,
+        "fan_out": 0
+    },
+    "scrapy.http.headers": {
+        "fan_in": 6,
+        "fan_out": 7
+    },
+    "scrapy.commands.edit": {
+        "fan_in": 1,
+        "fan_out": 3
+    },
+    "scrapy.downloadermiddlewares.httpcache": {
+        "fan_in": 1,
+        "fan_out": 19
+    },
+    "scrapy.extensions.httpcache": {
+        "fan_in": 1,
+        "fan_out": 14
+    },
+    "scrapy.core.scraper": {
+        "fan_in": 2,
+        "fan_out": 20
+    },
+    "scrapy.utils.trackref": {
+        "fan_in": 9,
+        "fan_out": 1
+    },
+    "scrapy.utils.curl": {
+        "fan_in": 2,
+        "fan_out": 2
+    },
+    "twisted.web.resource": {
+        "fan_in": 4,
+        "fan_out": 4
+    },
+    "scrapy.downloadermiddlewares": {
+        "fan_in": 1,
+        "fan_out": 0
+    },
+    "scrapy.logformatter": {
+        "fan_in": 5,
+        "fan_out": 10
+    },
+    "scrapy.shell": {
+        "fan_in": 2,
+        "fan_out": 23
+    },
+    "scrapy.utils.url": {
+        "fan_in": 8,
+        "fan_out": 4
+    },
+    "scrapy.extensions.postprocessing": {
+        "fan_in": 2,
+        "fan_out": 3
+    },
+    "scrapy.downloadermiddlewares.useragent": {
+        "fan_in": 1,
+        "fan_out": 5
+    },
+    "scrapy.core.downloader.handlers.http10": {
+        "fan_in": 2,
+        "fan_out": 18
+    },
+    "scrapy.commands.genspider": {
+        "fan_in": 1,
+        "fan_out": 5
+    },
+    "scrapy.spiderloader": {
+        "fan_in": 3,
+        "fan_out": 7
+    },
+    "scrapy.pipelines.images": {
+        "fan_in": 1,
+        "fan_out": 13
+    },
+    "twisted.python.threadable": {
+        "fan_in": 3,
+        "fan_out": 0
+    },
+    "queuelib.queue": {
+        "fan_in": 3,
+        "fan_out": 0
+    },
+    "scrapy.utils.conf": {
+        "fan_in": 11,
+        "fan_out": 6
+    },
+    "scrapy.downloadermiddlewares.httpproxy": {
+        "fan_in": 1,
+        "fan_out": 8
+    },
+    "scrapy.utils.testsite": {
+        "fan_in": 1,
+        "fan_out": 10
+    }
+}
